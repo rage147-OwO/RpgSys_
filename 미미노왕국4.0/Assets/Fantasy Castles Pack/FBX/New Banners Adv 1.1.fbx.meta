@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 2c4e9633d31873240946ec3460c117d2
+timeCreated: 1523665061
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Banner_1A
+    100002: Banner_1B
+    100004: Banner_1C
+    100006: Banner_1D
+    100008: Banner_1E
+    100010: Banner_1F
+    100012: Banner_1G
+    100014: Banner_2A
+    100016: Banner_2B
+    100018: Banner_2C
+    100020: Banner_2D
+    100022: Banner_2E
+    100024: Banner_2F
+    100026: Banner_2G
+    100028: //RootNode
+    400000: Banner_1A
+    400002: Banner_1B
+    400004: Banner_1C
+    400006: Banner_1D
+    400008: Banner_1E
+    400010: Banner_1F
+    400012: Banner_1G
+    400014: Banner_2A
+    400016: Banner_2B
+    400018: Banner_2C
+    400020: Banner_2D
+    400022: Banner_2E
+    400024: Banner_2F
+    400026: Banner_2G
+    400028: //RootNode
+    2300000: Banner_1A
+    2300002: Banner_1B
+    2300004: Banner_1C
+    2300006: Banner_1D
+    2300008: Banner_1E
+    2300010: Banner_1F
+    2300012: Banner_1G
+    2300014: Banner_2A
+    2300016: Banner_2B
+    2300018: Banner_2C
+    2300020: Banner_2D
+    2300022: Banner_2E
+    2300024: Banner_2F
+    2300026: Banner_2G
+    3300000: Banner_1A
+    3300002: Banner_1B
+    3300004: Banner_1C
+    3300006: Banner_1D
+    3300008: Banner_1E
+    3300010: Banner_1F
+    3300012: Banner_1G
+    3300014: Banner_2A
+    3300016: Banner_2B
+    3300018: Banner_2C
+    3300020: Banner_2D
+    3300022: Banner_2E
+    3300024: Banner_2F
+    3300026: Banner_2G
+    4300000: Banner_2G
+    4300002: Banner_2F
+    4300004: Banner_2A
+    4300006: Banner_2B
+    4300008: Banner_2C
+    4300010: Banner_2D
+    4300012: Banner_2E
+    4300014: Banner_1G
+    4300016: Banner_1E
+    4300018: Banner_1D
+    4300020: Banner_1C
+    4300022: Banner_1B
+    4300024: Banner_1A
+    4300026: Banner_1F
+    6400000: Banner_1A
+    6400002: Banner_1B
+    6400004: Banner_1C
+    6400006: Banner_1D
+    6400008: Banner_1E
+    6400010: Banner_1F
+    6400012: Banner_1G
+    6400014: Banner_2A
+    6400016: Banner_2B
+    6400018: Banner_2C
+    6400020: Banner_2D
+    6400022: Banner_2E
+    6400024: Banner_2F
+    6400026: Banner_2G
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

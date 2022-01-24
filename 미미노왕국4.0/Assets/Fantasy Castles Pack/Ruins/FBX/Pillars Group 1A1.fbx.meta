@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 0c9523e488a2f8d4c81f26c3243f02ff
+timeCreated: 1516055270
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Pedestal_Large_A
+    100002: Pedestal_Large_B
+    100004: Pedestal_Large_C
+    100006: Pedestal_Medium_A
+    100008: Pedestal_Medium_B
+    100010: Pedestal_Medium_C
+    100012: Pedestal_Small_A
+    100014: Pedestal_Small_B
+    100016: Pedestal_Small_C
+    100018: Pillar_Large_A
+    100020: Pillar_Large_B
+    100022: Pillar_Large_C
+    100024: Pillar_Large_D
+    100026: Pillar_Medium_A
+    100028: Pillar_Medium_B
+    100030: Pillar_Medium_C
+    100032: Pillar_Medium_D
+    100034: Pillar_Small_A
+    100036: Pillar_Small_B
+    100038: Pillar_Small_C
+    100040: Pillar_Small_D
+    100042: //RootNode
+    400000: Pedestal_Large_A
+    400002: Pedestal_Large_B
+    400004: Pedestal_Large_C
+    400006: Pedestal_Medium_A
+    400008: Pedestal_Medium_B
+    400010: Pedestal_Medium_C
+    400012: Pedestal_Small_A
+    400014: Pedestal_Small_B
+    400016: Pedestal_Small_C
+    400018: Pillar_Large_A
+    400020: Pillar_Large_B
+    400022: Pillar_Large_C
+    400024: Pillar_Large_D
+    400026: Pillar_Medium_A
+    400028: Pillar_Medium_B
+    400030: Pillar_Medium_C
+    400032: Pillar_Medium_D
+    400034: Pillar_Small_A
+    400036: Pillar_Small_B
+    400038: Pillar_Small_C
+    400040: Pillar_Small_D
+    400042: //RootNode
+    2300000: Pedestal_Large_A
+    2300002: Pedestal_Large_B
+    2300004: Pedestal_Large_C
+    2300006: Pedestal_Medium_A
+    2300008: Pedestal_Medium_B
+    2300010: Pedestal_Medium_C
+    2300012: Pedestal_Small_A
+    2300014: Pedestal_Small_B
+    2300016: Pedestal_Small_C
+    2300018: Pillar_Large_A
+    2300020: Pillar_Large_B
+    2300022: Pillar_Large_C
+    2300024: Pillar_Large_D
+    2300026: Pillar_Medium_A
+    2300028: Pillar_Medium_B
+    2300030: Pillar_Medium_C
+    2300032: Pillar_Medium_D
+    2300034: Pillar_Small_A
+    2300036: Pillar_Small_B
+    2300038: Pillar_Small_C
+    2300040: Pillar_Small_D
+    3300000: Pedestal_Large_A
+    3300002: Pedestal_Large_B
+    3300004: Pedestal_Large_C
+    3300006: Pedestal_Medium_A
+    3300008: Pedestal_Medium_B
+    3300010: Pedestal_Medium_C
+    3300012: Pedestal_Small_A
+    3300014: Pedestal_Small_B
+    3300016: Pedestal_Small_C
+    3300018: Pillar_Large_A
+    3300020: Pillar_Large_B
+    3300022: Pillar_Large_C
+    3300024: Pillar_Large_D
+    3300026: Pillar_Medium_A
+    3300028: Pillar_Medium_B
+    3300030: Pillar_Medium_C
+    3300032: Pillar_Medium_D
+    3300034: Pillar_Small_A
+    3300036: Pillar_Small_B
+    3300038: Pillar_Small_C
+    3300040: Pillar_Small_D
+    4300000: Pedestal_Small_C
+    4300002: Pedestal_Medium_C
+    4300004: Pedestal_Large_C
+    4300006: Pedestal_Large_B
+    4300008: Pedestal_Medium_B
+    4300010: Pedestal_Small_B
+    4300012: Pedestal_Small_A
+    4300014: Pedestal_Medium_A
+    4300016: Pedestal_Large_A
+    4300018: Pillar_Large_D
+    4300020: Pillar_Medium_D
+    4300022: Pillar_Small_D
+    4300024: Pillar_Small_C
+    4300026: Pillar_Medium_C
+    4300028: Pillar_Large_C
+    4300030: Pillar_Large_B
+    4300032: Pillar_Medium_B
+    4300034: Pillar_Small_B
+    4300036: Pillar_Small_A
+    4300038: Pillar_Medium_A
+    4300040: Pillar_Large_A
+    6400000: Pedestal_Large_A
+    6400002: Pedestal_Large_B
+    6400004: Pedestal_Large_C
+    6400006: Pedestal_Medium_A
+    6400008: Pedestal_Medium_B
+    6400010: Pedestal_Medium_C
+    6400012: Pedestal_Small_A
+    6400014: Pedestal_Small_B
+    6400016: Pedestal_Small_C
+    6400018: Pillar_Large_A
+    6400020: Pillar_Large_B
+    6400022: Pillar_Large_C
+    6400024: Pillar_Large_D
+    6400026: Pillar_Medium_A
+    6400028: Pillar_Medium_B
+    6400030: Pillar_Medium_C
+    6400032: Pillar_Medium_D
+    6400034: Pillar_Small_A
+    6400036: Pillar_Small_B
+    6400038: Pillar_Small_C
+    6400040: Pillar_Small_D
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
