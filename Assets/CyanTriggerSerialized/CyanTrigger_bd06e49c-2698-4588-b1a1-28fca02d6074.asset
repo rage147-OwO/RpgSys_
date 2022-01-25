@@ -381,8 +381,12 @@ MonoBehaviour:
       Data: 24|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.ValueTuple`2[[System.Object,
         mscorlib],[System.Type, mscorlib]], mscorlib]], mscorlib
     - Name: comparer
-      Entry: 9
-      Data: 23
+      Entry: 7
+      Data: 25|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 12
       Data: 26
@@ -401,7 +405,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 25|System.RuntimeType, mscorlib
+      Data: 26|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: System.UInt32, mscorlib
@@ -426,7 +430,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 26|System.UInt32, mscorlib
+      Data: 27|System.UInt32, mscorlib
     - Name: 
       Entry: 3
       Data: 16777200
@@ -435,7 +439,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
@@ -457,7 +461,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 27|System.RuntimeType, mscorlib
+      Data: 28|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: UnityEngine.GameObject, UnityEngine.CoreModule
@@ -507,7 +511,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 28|System.RuntimeType, mscorlib
+      Data: 29|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: VRC.Udon.Common.Interfaces.IUdonEventReceiver, VRC.Udon.Common
@@ -535,7 +539,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 29|System.RuntimeType, mscorlib
+      Data: 30|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: VRC.SDKBase.VRCPlayerApi, VRCSDKBase
@@ -563,7 +567,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 29
+      Data: 30
     - Name: 
       Entry: 8
       Data: 
@@ -582,10 +586,10 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 30|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
+      Data: 31|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
     - Name: 
       Entry: 7
-      Data: 31|System.RuntimeType, mscorlib
+      Data: 32|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: VRC.Udon.UdonBehaviour, VRC.Udon
@@ -597,7 +601,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 31
+      Data: 32
     - Name: 
       Entry: 8
       Data: 
@@ -616,7 +620,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 32|System.Boolean, mscorlib
+      Data: 33|System.Boolean, mscorlib
     - Name: 
       Entry: 5
       Data: false
@@ -625,7 +629,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 33|System.RuntimeType, mscorlib
+      Data: 34|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: System.Boolean, mscorlib
@@ -653,7 +657,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 34|System.RuntimeType, mscorlib
+      Data: 35|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: System.String, mscorlib
@@ -681,7 +685,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 29
+      Data: 30
     - Name: 
       Entry: 8
       Data: 
@@ -703,7 +707,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
@@ -722,7 +726,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 35|System.UInt32, mscorlib
+      Data: 36|System.UInt32, mscorlib
     - Name: 
       Entry: 3
       Data: 128
@@ -731,7 +735,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
@@ -750,7 +754,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 36|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
+      Data: 37|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
     - Name: 
       Entry: 9
       Data: 21
@@ -778,7 +782,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 37|UnityEngine.Quaternion, UnityEngine.CoreModule
+      Data: 38|UnityEngine.Quaternion, UnityEngine.CoreModule
     - Name: 
       Entry: 4
       Data: 0
@@ -796,7 +800,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 38|System.RuntimeType, mscorlib
+      Data: 39|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: UnityEngine.Quaternion, UnityEngine.CoreModule
@@ -821,7 +825,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 39|UnityEngine.Vector3, UnityEngine.CoreModule
+      Data: 40|UnityEngine.Vector3, UnityEngine.CoreModule
     - Name: 
       Entry: 4
       Data: 0
@@ -836,7 +840,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 40|System.RuntimeType, mscorlib
+      Data: 41|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: UnityEngine.Vector3, UnityEngine.CoreModule
@@ -861,7 +865,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 41|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
+      Data: 42|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
     - Name: 
       Entry: 9
       Data: 21
@@ -892,7 +896,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 29
+      Data: 30
     - Name: 
       Entry: 8
       Data: 
@@ -911,7 +915,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 42|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
+      Data: 43|VRC.Udon.Common.UdonGameObjectComponentHeapReference, VRC.Udon.Common
     - Name: 
       Entry: 9
       Data: 21
@@ -939,7 +943,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 43|UnityEngine.Quaternion, UnityEngine.CoreModule
+      Data: 44|UnityEngine.Quaternion, UnityEngine.CoreModule
     - Name: 
       Entry: 4
       Data: 0
@@ -957,7 +961,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 38
+      Data: 39
     - Name: 
       Entry: 8
       Data: 
@@ -976,7 +980,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 44|UnityEngine.Vector3, UnityEngine.CoreModule
+      Data: 45|UnityEngine.Vector3, UnityEngine.CoreModule
     - Name: 
       Entry: 4
       Data: 0
@@ -991,7 +995,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 40
+      Data: 41
     - Name: 
       Entry: 8
       Data: 
@@ -1013,7 +1017,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
@@ -1032,7 +1036,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 45|System.UInt32, mscorlib
+      Data: 46|System.UInt32, mscorlib
     - Name: 
       Entry: 3
       Data: 392
@@ -1041,7 +1045,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
@@ -1060,7 +1064,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 46|System.UInt32, mscorlib
+      Data: 47|System.UInt32, mscorlib
     - Name: 
       Entry: 3
       Data: 364
@@ -1069,7 +1073,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
@@ -1110,7 +1114,7 @@ MonoBehaviour:
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 47|System.UInt32, mscorlib
+      Data: 48|System.UInt32, mscorlib
     - Name: 
       Entry: 3
       Data: 428
@@ -1119,7 +1123,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 9
-      Data: 25
+      Data: 26
     - Name: 
       Entry: 8
       Data: 
