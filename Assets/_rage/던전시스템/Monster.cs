@@ -4,17 +4,14 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 using UnityEngine.UI;
-
 [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class Monster : UdonSharpBehaviour
 {
-    const int 무기A데미지 = 40;
-    const int 무기B데미지 = 60;
-    const int 무기C데미지 = 100;
-
+    _Setting setting;
     [System.NonSerialized, FieldChangeCallback(nameof(PlayerTracking))] private bool _playerTracking;
     public bool PlayerTracking
     {
+        
         get => _playerTracking;
         set
         {
@@ -192,15 +189,15 @@ public class Monster : UdonSharpBehaviour
             SetHpBar();
             if (other.name.Contains("A"))
             {
-                몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기A데미지;
+                몬스터_몬스터체력 = 몬스터_몬스터체력 - setting.무기A데미지;
             }
             else if (other.name.Contains("B"))
             {
-                몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기B데미지;
+                몬스터_몬스터체력 = 몬스터_몬스터체력 - setting.무기B데미지;
             }
             else if (other.name.Contains("C"))
             {
-                몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기C데미지;
+                몬스터_몬스터체력 = 몬스터_몬스터체력 - setting.무기C데미지;
             }
             if (몬스터_몬스터체력 < 0)
             {
