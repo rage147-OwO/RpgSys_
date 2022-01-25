@@ -3,12 +3,11 @@ using UdonSharp;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;              
-using MonsterNamespace;
 
 [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class PlayerFinder : UdonSharpBehaviour
 {     
-    public MonsterNamespace.Monster 몬스터;
+    public Monster 몬스터;
     public override void OnPlayerTriggerEnter(VRCPlayerApi player)
     {   //플레이어감지
         if (player == Networking.LocalPlayer)
