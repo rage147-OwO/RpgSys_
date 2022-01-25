@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
+  m_Script: {fileID: 11500000, guid: ab08314f48aded846850623a9bddb046, type: 3}
   m_Name: ftLocalStorage
   m_EditorClassIdentifier: 
-  modifiedAssetPathList:
-  - Assets/Bakery/examples/content/sponza/sponza.FBX
-  - Assets/PolygonDungeonRealms/Models/SM_Bld_Camp_Tent_02.fbx
-  modifiedAssetPaddingHash: d6a958ff4adc894b
+  modifiedAssetPathList: []
+  modifiedAssetPaddingHash: 
