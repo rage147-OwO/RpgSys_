@@ -8,7 +8,7 @@ using VRC.SDK3.Components;
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
 public class MonsterRoomMain : UdonSharpBehaviour
 {
-
+    public NetworkSysMain NetworkSys;
     public Monster[] 몬스터데이터;
 
     public Transform 몬스터스폰위치중앙;
@@ -23,9 +23,59 @@ public class MonsterRoomMain : UdonSharpBehaviour
     [SerializeField] public int 체력_최대체력 = 100;
     [SerializeField] public int 체력_현재플레이어체력 = 100;
 
-    [SerializeField] public bool 플레이어가죽었음;
+    [SerializeField] float 몬스터리스폰시간 = 3f;
 
-    [SerializeField] Transform[] 위치;
+    [System.NonSerialized] public bool 플레이어가죽었음;
+
+
+
+
+    #region 몬스터리스폰(Monster.cs)에서호출당해타이머동작후리스폰
+    public void 몬스터리스폰(GameObject MonsterDeath)
+    {
+        for(int i = 0; i < 몬스터데이터.Length; i++)
+        {
+            if (MonsterDeath == 몬스터데이터[i].gameObject)
+            {
+                SendCustomEventDelayedSeconds("MonseterRespawn" + i.ToString(), 몬스터리스폰시간);
+                break;
+            }
+        }
+        NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().당근++;
+        NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().RequestSerialization();
+    }
+    public void MonseterRespawn0()
+    {
+        몬스터데이터[0].gameObject.SetActive(true);
+    }
+    public void MonseterRespawn1()
+    {
+        몬스터데이터[1].gameObject.SetActive(true);
+    }
+    public void MonseterRespawn2()
+    {
+        몬스터데이터[2].gameObject.SetActive(true);
+    }
+    public void MonseterRespawn3()
+    {
+        몬스터데이터[3].gameObject.SetActive(true);
+    }
+    public void MonseterRespawn4()
+    {
+        몬스터데이터[4].gameObject.SetActive(true);
+    }
+    public void MonseterRespawn5()
+    {
+        몬스터데이터[5].gameObject.SetActive(true);
+    }
+    #endregion
+
+
+
+
+
+
+
     public override void OnPlayerJoined(VRCPlayerApi player)
     {
         if (player == Networking.LocalPlayer)
@@ -43,37 +93,23 @@ public class MonsterRoomMain : UdonSharpBehaviour
             }
         }
     }
-    public void 몬스터죽음()
-    {
-        // SendCustomEventDelayedSeconds("몬스터스폰", 1f);
-    }
+
     public void 방입장()
     {
         방리셋();
         Networking.LocalPlayer.TeleportTo(입장위치.position, 입장위치.rotation);
         //Networking.LocalPlayer.CombatSetMaxHitpoints(100);
-        몬스터스폰(0);
-        몬스터스폰(1);
-        몬스터스폰(2);
-        몬스터스폰(3);
-        몬스터스폰(4);
-        몬스터스폰(5);
 
-        /*
-        몬스터스폰();
-        몬스터스폰();
-        몬스터스폰();
-        몬스터스폰();
-        */
+        for(int i = 0; i < 몬스터데이터.Length; i++)
+        {
+            몬스터스폰(i);
+        }
     }
-    public void 몬스터스폰(int Type)
+
+    public void 몬스터스폰(int Num)
     {
-
-        몬스터데이터[Type].gameObject.SetActive(true);
-        몬스터데이터[Type].gameObject.transform.position = 위치[Type].position;
-
-    }
-
+        몬스터데이터[Num].gameObject.SetActive(true);
+    }    
     public void 방리셋()
     {
         Networking.LocalPlayer.CombatSetCurrentHitpoints(10);
@@ -92,9 +128,7 @@ public class MonsterRoomMain : UdonSharpBehaviour
             당근데이터[i].gameObject.SetActive(false);
         }
     }
-    public override void OnSpawn()
-    {
-    }
+ 
     public override void OnPlayerRespawn(VRCPlayerApi player)
     {
         방리셋();

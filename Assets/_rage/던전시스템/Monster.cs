@@ -50,7 +50,8 @@ public class Monster : UdonSharpBehaviour
     int 몬스터_몬스터체력 = 100;
     [SerializeField] float 몬스터_이동속도 = 0.02f;
     bool 종료;
-    float Timer = 2;    //fixedupdate에서 도는 타이머
+    float Timer = 2;    //fixedupdate에서 도는 타이머    ㅍ
+    Vector3 O_pos;
 
     private void FixedUpdate()
     {
@@ -141,9 +142,10 @@ public class Monster : UdonSharpBehaviour
     }
 
 
-    #region 몬스터활성화/비활성화/초기설정
+    #region "몬스터활성화,스타트,인에이블"
     private void Start()
     {
+        O_pos = this.transform.position;
         몬스터애니메이션 = (Animator)this.gameObject.GetComponent(typeof(Animator));
         HpBar.maxValue = 몬스터_최대체력;
         몬스터_몬스터체력 = 몬스터_최대체력;
@@ -151,6 +153,14 @@ public class Monster : UdonSharpBehaviour
     }
     private void OnEnable()   //스폰돼면
     {
+        if (O_pos == null)
+        {
+            O_pos = this.transform.position;
+        }
+        else
+        {
+            this.gameObject.transform.position = O_pos;
+        }
         종료 = false;
         HpBar.value = 몬스터_최대체력;
         몬스터애니메이션 = (Animator)this.gameObject.GetComponent(typeof(Animator));
@@ -180,8 +190,7 @@ public class Monster : UdonSharpBehaviour
     }
     #endregion
 
-
-    #region 무기판정
+    #region "무기판정 온트리거엔터"
 
 
     //무기판정
@@ -213,7 +222,7 @@ public class Monster : UdonSharpBehaviour
     void 몬스터_사망()
     {
         당근스폰(this.transform.position);
-        메인.몬스터죽음();
+        메인.몬스터리스폰(this.gameObject);                      
         this.gameObject.SetActive(false);
     }
     void 당근스폰(Vector3 위치)

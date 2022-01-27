@@ -7,7 +7,7 @@ using VRC.Udon;
 [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class 당근 : UdonSharpBehaviour
 {
-    [SerializeField]private float 당근속도 = 0.02f;
+    private float 당근속도 = 0.01f;       
     private void OnEnable()
     {
         SendCustomEventDelayedSeconds("끄기", 3f);

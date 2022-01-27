@@ -25,6 +25,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
+    - {fileID: 11500000, guid: c4dc853e35f3efe4b8e271edb6e436de, type: 3}
     - {fileID: 11500000, guid: 92ef0d484f67c5e4eb617407ec360690, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -44,13 +45,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 11
+      Data: 12
     - Name: 
       Entry: 7
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uBAAC\uC2A4\uD130\uB370\uC774\uD130"
+      Data: NetworkSys
     - Name: $v
       Entry: 7
       Data: 2|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -62,7 +63,7 @@ MonoBehaviour:
       Data: 4|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Monster[], Assembly-CSharp
+      Data: NetworkSysMain, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
@@ -74,13 +75,13 @@ MonoBehaviour:
       Data: 0
     - Name: symbolResolvedTypeName
       Entry: 1
-      Data: UnityEngineComponentArray
+      Data: VRCUdonUdonBehaviour
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uBAAC\uC2A4\uD130\uB370\uC774\uD130"
+      Data: NetworkSys
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uBAAC\uC2A4\uD130\uB370\uC774\uD130"
+      Data: NetworkSys
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -113,7 +114,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uBAAC\uC2A4\uD130\uC2A4\uD3F0\uC704\uCE58\uC911\uC559"
+      Data: "\uBAAC\uC2A4\uD130\uB370\uC774\uD130"
     - Name: $v
       Entry: 7
       Data: 6|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -123,6 +124,69 @@ MonoBehaviour:
     - Name: internalType
       Entry: 7
       Data: 8|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: Monster[], Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: declarationType
+      Entry: 3
+      Data: 1
+    - Name: syncMode
+      Entry: 3
+      Data: 0
+    - Name: symbolResolvedTypeName
+      Entry: 1
+      Data: UnityEngineComponentArray
+    - Name: symbolOriginalName
+      Entry: 1
+      Data: "\uBAAC\uC2A4\uD130\uB370\uC774\uD130"
+    - Name: symbolUniqueName
+      Entry: 1
+      Data: "\uBAAC\uC2A4\uD130\uB370\uC774\uD130"
+    - Name: symbolDefaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: fieldAttributes
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: userBehaviourSource
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: "\uBAAC\uC2A4\uD130\uC2A4\uD3F0\uC704\uCE58\uC911\uC559"
+    - Name: $v
+      Entry: 7
+      Data: 10|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: fieldSymbol
+      Entry: 7
+      Data: 11|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
+    - Name: internalType
+      Entry: 7
+      Data: 12|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: UnityEngine.Transform, UnityEngine.CoreModule
@@ -152,7 +216,7 @@ MonoBehaviour:
       Data: 
     - Name: fieldAttributes
       Entry: 7
-      Data: 9|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+      Data: 13|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -179,13 +243,13 @@ MonoBehaviour:
       Data: "\uC785\uC7A5\uC704\uCE58"
     - Name: $v
       Entry: 7
-      Data: 10|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+      Data: 14|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: fieldSymbol
       Entry: 7
-      Data: 11|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
+      Data: 15|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
     - Name: internalType
       Entry: 9
-      Data: 8
+      Data: 12
     - Name: declarationType
       Entry: 3
       Data: 1
@@ -209,7 +273,7 @@ MonoBehaviour:
       Data: 
     - Name: fieldAttributes
       Entry: 7
-      Data: 12|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+      Data: 16|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -236,13 +300,13 @@ MonoBehaviour:
       Data: "\uD50C\uB808\uC774\uC5B4\uC8FD\uC5C8\uC744\uB54C\uC2A4\uD3F0\uC704\uCE58"
     - Name: $v
       Entry: 7
-      Data: 13|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+      Data: 17|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: fieldSymbol
       Entry: 7
-      Data: 14|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
+      Data: 18|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
     - Name: internalType
       Entry: 9
-      Data: 8
+      Data: 12
     - Name: declarationType
       Entry: 3
       Data: 1
@@ -258,69 +322,6 @@ MonoBehaviour:
     - Name: symbolUniqueName
       Entry: 1
       Data: "\uD50C\uB808\uC774\uC5B4\uC8FD\uC5C8\uC744\uB54C\uC2A4\uD3F0\uC704\uCE58"
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 15|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: "\uCE74\uBA54\uB77C"
-    - Name: $v
-      Entry: 7
-      Data: 16|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 17|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 7
-      Data: 18|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: UnityEngine.Camera, UnityEngine.CoreModule
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: UnityEngineCamera
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: "\uCE74\uBA54\uB77C"
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: "\uCE74\uBA54\uB77C"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -353,7 +354,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uB2F9\uADFC\uB370\uC774\uD130"
+      Data: "\uCE74\uBA54\uB77C"
     - Name: $v
       Entry: 7
       Data: 20|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -365,7 +366,7 @@ MonoBehaviour:
       Data: 22|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: UnityEngine.GameObject[], UnityEngine.CoreModule
+      Data: UnityEngine.Camera, UnityEngine.CoreModule
     - Name: 
       Entry: 8
       Data: 
@@ -377,13 +378,13 @@ MonoBehaviour:
       Data: 0
     - Name: symbolResolvedTypeName
       Entry: 1
-      Data: UnityEngineGameObjectArray
+      Data: UnityEngineCamera
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uB2F9\uADFC\uB370\uC774\uD130"
+      Data: "\uCE74\uBA54\uB77C"
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uB2F9\uADFC\uB370\uC774\uD130"
+      Data: "\uCE74\uBA54\uB77C"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -416,7 +417,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uBAAC\uC2A4\uD130\uC2A4\uD3F0\uBC94\uC704"
+      Data: "\uB2F9\uADFC\uB370\uC774\uD130"
     - Name: $v
       Entry: 7
       Data: 24|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -426,6 +427,69 @@ MonoBehaviour:
     - Name: internalType
       Entry: 7
       Data: 26|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: UnityEngine.GameObject[], UnityEngine.CoreModule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: declarationType
+      Entry: 3
+      Data: 1
+    - Name: syncMode
+      Entry: 3
+      Data: 0
+    - Name: symbolResolvedTypeName
+      Entry: 1
+      Data: UnityEngineGameObjectArray
+    - Name: symbolOriginalName
+      Entry: 1
+      Data: "\uB2F9\uADFC\uB370\uC774\uD130"
+    - Name: symbolUniqueName
+      Entry: 1
+      Data: "\uB2F9\uADFC\uB370\uC774\uD130"
+    - Name: symbolDefaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: fieldAttributes
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: userBehaviourSource
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: "\uBAAC\uC2A4\uD130\uC2A4\uD3F0\uBC94\uC704"
+    - Name: $v
+      Entry: 7
+      Data: 28|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: fieldSymbol
+      Entry: 7
+      Data: 29|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
+    - Name: internalType
+      Entry: 7
+      Data: 30|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: System.Int32, mscorlib
@@ -447,69 +511,6 @@ MonoBehaviour:
     - Name: symbolUniqueName
       Entry: 1
       Data: "\uBAAC\uC2A4\uD130\uC2A4\uD3F0\uBC94\uC704"
-    - Name: symbolDefaultValue
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: fieldAttributes
-      Entry: 7
-      Data: 27|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 28|UnityEngine.SerializeField, UnityEngine.CoreModule
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: userBehaviourSource
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: "\uCCB4\uB825_\uCD5C\uB300\uCCB4\uB825"
-    - Name: $v
-      Entry: 7
-      Data: 29|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
-    - Name: fieldSymbol
-      Entry: 7
-      Data: 30|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
-    - Name: internalType
-      Entry: 9
-      Data: 26
-    - Name: declarationType
-      Entry: 3
-      Data: 1
-    - Name: syncMode
-      Entry: 3
-      Data: 0
-    - Name: symbolResolvedTypeName
-      Entry: 1
-      Data: SystemInt32
-    - Name: symbolOriginalName
-      Entry: 1
-      Data: "\uCCB4\uB825_\uCD5C\uB300\uCCB4\uB825"
-    - Name: symbolUniqueName
-      Entry: 1
-      Data: "\uCCB4\uB825_\uCD5C\uB300\uCCB4\uB825"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -548,7 +549,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uCCB4\uB825_\uD604\uC7AC\uD50C\uB808\uC774\uC5B4\uCCB4\uB825"
+      Data: "\uCCB4\uB825_\uCD5C\uB300\uCCB4\uB825"
     - Name: $v
       Entry: 7
       Data: 33|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -557,7 +558,7 @@ MonoBehaviour:
       Data: 34|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
     - Name: internalType
       Entry: 9
-      Data: 26
+      Data: 30
     - Name: declarationType
       Entry: 3
       Data: 1
@@ -569,10 +570,10 @@ MonoBehaviour:
       Data: SystemInt32
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uCCB4\uB825_\uD604\uC7AC\uD50C\uB808\uC774\uC5B4\uCCB4\uB825"
+      Data: "\uCCB4\uB825_\uCD5C\uB300\uCCB4\uB825"
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uCCB4\uB825_\uD604\uC7AC\uD50C\uB808\uC774\uC5B4\uCCB4\uB825"
+      Data: "\uCCB4\uB825_\uCD5C\uB300\uCCB4\uB825"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -611,7 +612,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uD50C\uB808\uC774\uC5B4\uAC00\uC8FD\uC5C8\uC74C"
+      Data: "\uCCB4\uB825_\uD604\uC7AC\uD50C\uB808\uC774\uC5B4\uCCB4\uB825"
     - Name: $v
       Entry: 7
       Data: 37|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -619,14 +620,8 @@ MonoBehaviour:
       Entry: 7
       Data: 38|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
     - Name: internalType
-      Entry: 7
-      Data: 39|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: System.Boolean, mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
+      Entry: 9
+      Data: 30
     - Name: declarationType
       Entry: 3
       Data: 1
@@ -635,13 +630,13 @@ MonoBehaviour:
       Data: 0
     - Name: symbolResolvedTypeName
       Entry: 1
-      Data: SystemBoolean
+      Data: SystemInt32
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uD50C\uB808\uC774\uC5B4\uAC00\uC8FD\uC5C8\uC74C"
+      Data: "\uCCB4\uB825_\uD604\uC7AC\uD50C\uB808\uC774\uC5B4\uCCB4\uB825"
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uD50C\uB808\uC774\uC5B4\uAC00\uC8FD\uC5C8\uC74C"
+      Data: "\uCCB4\uB825_\uD604\uC7AC\uD50C\uB808\uC774\uC5B4\uCCB4\uB825"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -650,13 +645,13 @@ MonoBehaviour:
       Data: 
     - Name: fieldAttributes
       Entry: 7
-      Data: 40|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+      Data: 39|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 41|UnityEngine.SerializeField, UnityEngine.CoreModule
+      Data: 40|UnityEngine.SerializeField, UnityEngine.CoreModule
     - Name: 
       Entry: 8
       Data: 
@@ -680,19 +675,19 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uC704\uCE58"
+      Data: "\uBAAC\uC2A4\uD130\uB9AC\uC2A4\uD3F0\uC2DC\uAC04"
     - Name: $v
       Entry: 7
-      Data: 42|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+      Data: 41|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: fieldSymbol
       Entry: 7
-      Data: 43|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
+      Data: 42|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
     - Name: internalType
       Entry: 7
-      Data: 44|System.RuntimeType, mscorlib
+      Data: 43|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: UnityEngine.Transform[], UnityEngine.CoreModule
+      Data: System.Single, mscorlib
     - Name: 
       Entry: 8
       Data: 
@@ -704,13 +699,13 @@ MonoBehaviour:
       Data: 0
     - Name: symbolResolvedTypeName
       Entry: 1
-      Data: UnityEngineTransformArray
+      Data: SystemSingle
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uC704\uCE58"
+      Data: "\uBAAC\uC2A4\uD130\uB9AC\uC2A4\uD3F0\uC2DC\uAC04"
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uC704\uCE58"
+      Data: "\uBAAC\uC2A4\uD130\uB9AC\uC2A4\uD3F0\uC2DC\uAC04"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -719,13 +714,82 @@ MonoBehaviour:
       Data: 
     - Name: fieldAttributes
       Entry: 7
-      Data: 45|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+      Data: 44|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 46|UnityEngine.SerializeField, UnityEngine.CoreModule
+      Data: 45|UnityEngine.SerializeField, UnityEngine.CoreModule
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: userBehaviourSource
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: "\uD50C\uB808\uC774\uC5B4\uAC00\uC8FD\uC5C8\uC74C"
+    - Name: $v
+      Entry: 7
+      Data: 46|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
+    - Name: fieldSymbol
+      Entry: 7
+      Data: 47|UdonSharp.Compiler.SymbolDefinition, UdonSharp.Editor
+    - Name: internalType
+      Entry: 7
+      Data: 48|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: System.Boolean, mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: declarationType
+      Entry: 3
+      Data: 2
+    - Name: syncMode
+      Entry: 3
+      Data: 0
+    - Name: symbolResolvedTypeName
+      Entry: 1
+      Data: SystemBoolean
+    - Name: symbolOriginalName
+      Entry: 1
+      Data: "\uD50C\uB808\uC774\uC5B4\uAC00\uC8FD\uC5C8\uC74C"
+    - Name: symbolUniqueName
+      Entry: 1
+      Data: "\uD50C\uB808\uC774\uC5B4\uAC00\uC8FD\uC5C8\uC74C"
+    - Name: symbolDefaultValue
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: fieldAttributes
+      Entry: 7
+      Data: 49|System.Collections.Generic.List`1[[System.Attribute, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 50|System.NonSerializedAttribute, mscorlib
     - Name: 
       Entry: 8
       Data: 
