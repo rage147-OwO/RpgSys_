@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 85eb4fd8dff9f074b9d6aa4400aec23a
+timeCreated: 1516300033
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ruin_Bricks_1A1
+    100004: Ruin_Bricks_1A2
+    100006: Ruin_Bricks_1A3
+    100008: Ruin_Bricks_1A4
+    100010: Ruin_Bricks_1A5
+    100012: Ruin_Bricks_1A6
+    100014: Ruin_Bricks_1A7
+    100016: Ruin_Doorway_1A1
+    100018: Ruin_Wall_1A1
+    100020: Ruin_Wall_1A10
+    100022: Ruin_Wall_1A11
+    100024: Ruin_Wall_1A12
+    100026: Ruin_Wall_1A2
+    100028: Ruin_Wall_1A3
+    100030: Ruin_Wall_1A4
+    100032: Ruin_Wall_1A5
+    100034: Ruin_Wall_1A6
+    100036: Ruin_Wall_1A7
+    100038: Ruin_Wall_1A8
+    100040: Ruin_Wall_1A9
+    100042: Ruin_Wall_Corner_1A1
+    100044: Ruin_Wall_Corner_1A2
+    400000: Ruin_Bricks_1A1
+    400002: //RootNode
+    400004: Ruin_Bricks_1A2
+    400006: Ruin_Bricks_1A3
+    400008: Ruin_Bricks_1A4
+    400010: Ruin_Bricks_1A5
+    400012: Ruin_Bricks_1A6
+    400014: Ruin_Bricks_1A7
+    400016: Ruin_Doorway_1A1
+    400018: Ruin_Wall_1A1
+    400020: Ruin_Wall_1A10
+    400022: Ruin_Wall_1A11
+    400024: Ruin_Wall_1A12
+    400026: Ruin_Wall_1A2
+    400028: Ruin_Wall_1A3
+    400030: Ruin_Wall_1A4
+    400032: Ruin_Wall_1A5
+    400034: Ruin_Wall_1A6
+    400036: Ruin_Wall_1A7
+    400038: Ruin_Wall_1A8
+    400040: Ruin_Wall_1A9
+    400042: Ruin_Wall_Corner_1A1
+    400044: Ruin_Wall_Corner_1A2
+    2300000: Ruin_Bricks_1A1
+    2300002: Ruin_Bricks_1A2
+    2300004: Ruin_Bricks_1A3
+    2300006: Ruin_Bricks_1A4
+    2300008: Ruin_Bricks_1A5
+    2300010: Ruin_Bricks_1A6
+    2300012: Ruin_Bricks_1A7
+    2300014: Ruin_Doorway_1A1
+    2300016: Ruin_Wall_1A1
+    2300018: Ruin_Wall_1A10
+    2300020: Ruin_Wall_1A11
+    2300022: Ruin_Wall_1A12
+    2300024: Ruin_Wall_1A2
+    2300026: Ruin_Wall_1A3
+    2300028: Ruin_Wall_1A4
+    2300030: Ruin_Wall_1A5
+    2300032: Ruin_Wall_1A6
+    2300034: Ruin_Wall_1A7
+    2300036: Ruin_Wall_1A8
+    2300038: Ruin_Wall_1A9
+    2300040: Ruin_Wall_Corner_1A1
+    2300042: Ruin_Wall_Corner_1A2
+    3300000: Ruin_Bricks_1A1
+    3300002: Ruin_Bricks_1A2
+    3300004: Ruin_Bricks_1A3
+    3300006: Ruin_Bricks_1A4
+    3300008: Ruin_Bricks_1A5
+    3300010: Ruin_Bricks_1A6
+    3300012: Ruin_Bricks_1A7
+    3300014: Ruin_Doorway_1A1
+    3300016: Ruin_Wall_1A1
+    3300018: Ruin_Wall_1A10
+    3300020: Ruin_Wall_1A11
+    3300022: Ruin_Wall_1A12
+    3300024: Ruin_Wall_1A2
+    3300026: Ruin_Wall_1A3
+    3300028: Ruin_Wall_1A4
+    3300030: Ruin_Wall_1A5
+    3300032: Ruin_Wall_1A6
+    3300034: Ruin_Wall_1A7
+    3300036: Ruin_Wall_1A8
+    3300038: Ruin_Wall_1A9
+    3300040: Ruin_Wall_Corner_1A1
+    3300042: Ruin_Wall_Corner_1A2
+    4300000: Ruin_Wall_Corner_1A2
+    4300002: Ruin_Bricks_1A2
+    4300004: Ruin_Bricks_1A1
+    4300006: Ruin_Wall_1A7
+    4300008: Ruin_Doorway_1A1
+    4300010: Ruin_Wall_1A11
+    4300012: Ruin_Wall_1A12
+    4300014: Ruin_Wall_1A10
+    4300016: Ruin_Wall_1A8
+    4300018: Ruin_Wall_1A9
+    4300020: Ruin_Wall_Corner_1A1
+    4300022: Ruin_Bricks_1A7
+    4300024: Ruin_Wall_1A6
+    4300026: Ruin_Wall_1A1
+    4300028: Ruin_Wall_1A5
+    4300030: Ruin_Wall_1A4
+    4300032: Ruin_Bricks_1A3
+    4300034: Ruin_Bricks_1A6
+    4300036: Ruin_Bricks_1A5
+    4300038: Ruin_Wall_1A3
+    4300040: Ruin_Bricks_1A4
+    4300042: Ruin_Wall_1A2
+    6400000: Ruin_Bricks_1A1
+    6400002: Ruin_Bricks_1A2
+    6400004: Ruin_Bricks_1A3
+    6400006: Ruin_Bricks_1A4
+    6400008: Ruin_Bricks_1A5
+    6400010: Ruin_Bricks_1A6
+    6400012: Ruin_Bricks_1A7
+    6400014: Ruin_Doorway_1A1
+    6400016: Ruin_Wall_1A1
+    6400018: Ruin_Wall_1A10
+    6400020: Ruin_Wall_1A11
+    6400022: Ruin_Wall_1A12
+    6400024: Ruin_Wall_1A2
+    6400026: Ruin_Wall_1A3
+    6400028: Ruin_Wall_1A4
+    6400030: Ruin_Wall_1A5
+    6400032: Ruin_Wall_1A6
+    6400034: Ruin_Wall_1A7
+    6400036: Ruin_Wall_1A8
+    6400038: Ruin_Wall_1A9
+    6400040: Ruin_Wall_Corner_1A1
+    6400042: Ruin_Wall_Corner_1A2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

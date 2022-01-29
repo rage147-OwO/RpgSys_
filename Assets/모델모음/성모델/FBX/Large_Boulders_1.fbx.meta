@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 24e74ec7ebaab2c49854ee6e2463305e
+timeCreated: 1525033835
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Large_Boulder_1
+    100002: Large_Boulder_10
+    100004: Large_Boulder_10_LOD_1
+    100006: Large_Boulder_1_LOD_1
+    100008: Large_Boulder_2
+    100010: Large_Boulder_2_LOD_1
+    100012: Large_Boulder_3
+    100014: Large_Boulder_3_LOD_1
+    100016: Large_Boulder_4
+    100018: Large_Boulder_4_LOD_1
+    100020: Large_Boulder_5
+    100022: Large_Boulder_5_LOD_1
+    100024: Large_Boulder_6
+    100026: Large_Boulder_6_LOD_1
+    100028: Large_Boulder_7
+    100030: Large_Boulder_7_LOD_1
+    100032: Large_Boulder_8
+    100034: Large_Boulder_8_LOD_1
+    100036: Large_Boulder_9
+    100038: Large_Boulder_9_LOD_1
+    100040: //RootNode
+    400000: Large_Boulder_1
+    400002: Large_Boulder_10
+    400004: Large_Boulder_10_LOD_1
+    400006: Large_Boulder_1_LOD_1
+    400008: Large_Boulder_2
+    400010: Large_Boulder_2_LOD_1
+    400012: Large_Boulder_3
+    400014: Large_Boulder_3_LOD_1
+    400016: Large_Boulder_4
+    400018: Large_Boulder_4_LOD_1
+    400020: Large_Boulder_5
+    400022: Large_Boulder_5_LOD_1
+    400024: Large_Boulder_6
+    400026: Large_Boulder_6_LOD_1
+    400028: Large_Boulder_7
+    400030: Large_Boulder_7_LOD_1
+    400032: Large_Boulder_8
+    400034: Large_Boulder_8_LOD_1
+    400036: Large_Boulder_9
+    400038: Large_Boulder_9_LOD_1
+    400040: //RootNode
+    2300000: Large_Boulder_1
+    2300002: Large_Boulder_10
+    2300004: Large_Boulder_10_LOD_1
+    2300006: Large_Boulder_1_LOD_1
+    2300008: Large_Boulder_2
+    2300010: Large_Boulder_2_LOD_1
+    2300012: Large_Boulder_3
+    2300014: Large_Boulder_3_LOD_1
+    2300016: Large_Boulder_4
+    2300018: Large_Boulder_4_LOD_1
+    2300020: Large_Boulder_5
+    2300022: Large_Boulder_5_LOD_1
+    2300024: Large_Boulder_6
+    2300026: Large_Boulder_6_LOD_1
+    2300028: Large_Boulder_7
+    2300030: Large_Boulder_7_LOD_1
+    2300032: Large_Boulder_8
+    2300034: Large_Boulder_8_LOD_1
+    2300036: Large_Boulder_9
+    2300038: Large_Boulder_9_LOD_1
+    3300000: Large_Boulder_1
+    3300002: Large_Boulder_10
+    3300004: Large_Boulder_10_LOD_1
+    3300006: Large_Boulder_1_LOD_1
+    3300008: Large_Boulder_2
+    3300010: Large_Boulder_2_LOD_1
+    3300012: Large_Boulder_3
+    3300014: Large_Boulder_3_LOD_1
+    3300016: Large_Boulder_4
+    3300018: Large_Boulder_4_LOD_1
+    3300020: Large_Boulder_5
+    3300022: Large_Boulder_5_LOD_1
+    3300024: Large_Boulder_6
+    3300026: Large_Boulder_6_LOD_1
+    3300028: Large_Boulder_7
+    3300030: Large_Boulder_7_LOD_1
+    3300032: Large_Boulder_8
+    3300034: Large_Boulder_8_LOD_1
+    3300036: Large_Boulder_9
+    3300038: Large_Boulder_9_LOD_1
+    4300000: Large_Boulder_3_LOD_1
+    4300002: Large_Boulder_2_LOD_1
+    4300004: Large_Boulder_1_LOD_1
+    4300006: Large_Boulder_7_LOD_1
+    4300008: Large_Boulder_4_LOD_1
+    4300010: Large_Boulder_5_LOD_1
+    4300012: Large_Boulder_9_LOD_1
+    4300014: Large_Boulder_8_LOD_1
+    4300016: Large_Boulder_10_LOD_1
+    4300018: Large_Boulder_6_LOD_1
+    4300020: Large_Boulder_6
+    4300022: Large_Boulder_10
+    4300024: Large_Boulder_8
+    4300026: Large_Boulder_9
+    4300028: Large_Boulder_5
+    4300030: Large_Boulder_4
+    4300032: Large_Boulder_7
+    4300034: Large_Boulder_1
+    4300036: Large_Boulder_2
+    4300038: Large_Boulder_3
+    6400000: Large_Boulder_1
+    6400002: Large_Boulder_10
+    6400004: Large_Boulder_10_LOD_1
+    6400006: Large_Boulder_1_LOD_1
+    6400008: Large_Boulder_2
+    6400010: Large_Boulder_2_LOD_1
+    6400012: Large_Boulder_3
+    6400014: Large_Boulder_3_LOD_1
+    6400016: Large_Boulder_4
+    6400018: Large_Boulder_4_LOD_1
+    6400020: Large_Boulder_5
+    6400022: Large_Boulder_5_LOD_1
+    6400024: Large_Boulder_6
+    6400026: Large_Boulder_6_LOD_1
+    6400028: Large_Boulder_7
+    6400030: Large_Boulder_7_LOD_1
+    6400032: Large_Boulder_8
+    6400034: Large_Boulder_8_LOD_1
+    6400036: Large_Boulder_9
+    6400038: Large_Boulder_9_LOD_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
