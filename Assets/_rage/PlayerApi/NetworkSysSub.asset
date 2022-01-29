@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: NetworkSysSub
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 862899c7993e07041a8415ee0b05b3ae,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 0e4f7c6fdea8985479e36d7c6063df10,
     type: 2}
   udonAssembly: 
   assemblyError: 
@@ -24,8 +24,7 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 11500000, guid: c4dc853e35f3efe4b8e271edb6e436de, type: 3}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -238,8 +237,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: userBehaviourSource
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
