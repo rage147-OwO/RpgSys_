@@ -25,7 +25,6 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11500000, guid: c4dc853e35f3efe4b8e271edb6e436de, type: 3}
     - {fileID: 11500000, guid: 92ef0d484f67c5e4eb617407ec360690, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -101,8 +100,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: userBehaviourSource
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -165,7 +164,7 @@ MonoBehaviour:
       Data: 
     - Name: userBehaviourSource
       Entry: 10
-      Data: 1
+      Data: 0
     - Name: 
       Entry: 8
       Data: 

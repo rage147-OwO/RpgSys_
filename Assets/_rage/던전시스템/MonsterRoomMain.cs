@@ -41,8 +41,8 @@ public class MonsterRoomMain : UdonSharpBehaviour
                 break;
             }
         }
-        NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().당근++;
-        NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().RequestSerialization();
+        //NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().당근++;
+        //NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().RequestSerialization();
     }
     public void MonseterRespawn0()
     {
