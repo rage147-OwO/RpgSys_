@@ -1,60 +1,24 @@
 ﻿
 using UdonSharp;
 using UnityEngine;
+using UnityEngine.UI;
 using VRC.SDK3.Components;
 using VRC.SDKBase;
 using VRC.Udon;
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
-[RequireComponent(typeof(VRCObjectPool))] //컴포넌트추가시오브젝트풀동시생성
+[RequireComponent(typeof(VRCObjectPool))]
 public class NetworkSysMain : UdonSharpBehaviour
 {
-    public VRCObjectPool pool;
-    [System.NonSerialized] public byte PlayerObjectNum = 254; //플레이어오브젝트풀넘버임
+    [System.NonSerialized] public VRCObjectPool pool;
+    [System.NonSerialized] public byte PlayerObjectNum = 254;     
+    VRCPlayerApi LocalPlayer;
 
-    private void FixedUpdate()
-    {
-        for(int i = 0; i < pool.Pool.Length; i++)
-        {
-            if (pool.Pool[i].gameObject.activeInHierarchy == true){
-                Debug.Log("당근" + pool.Pool[i].GetComponent<NetworkSysSub>().당근);
-            }
-        }
-    }
-
-    //캔버스에서 버튼클릭받아서 weaponHouse(검집)이동시킴 
-    #region 
-    public void RequestSync()
-    {
-        pool.Pool[PlayerObjectNum].GetComponent<NetworkSysSub>().RequestSync();
-    }
-    public void resetP()
-    {
-        pool.Pool[PlayerObjectNum].GetComponent<NetworkSysSub>().resetP();
-    }
-    public void up()
-    {
-        pool.Pool[PlayerObjectNum].GetComponent<NetworkSysSub>().pY();
-    }
-    public void down()
-    {
-        pool.Pool[PlayerObjectNum].GetComponent<NetworkSysSub>().mY();
-    }
-    public void right()
-    {
-        pool.Pool[PlayerObjectNum].GetComponent<NetworkSysSub>().pX();
-    }
-    public void left()
-    {
-        pool.Pool[PlayerObjectNum].GetComponent<NetworkSysSub>().mX();
-    }
-    #endregion
-
-    //초기설정 Start,OnPlayerJoin,OnPlayerLeft 에서 오브젝트풀을 스폰하고 오너설정해줌
-    #region
     private void Start()
     {
         pool = ((VRCObjectPool)GetComponent(typeof(VRCObjectPool)));
+
     }
+
     public override void OnPlayerJoined(VRCPlayerApi player)
     {
         if (Networking.IsMaster)
@@ -92,5 +56,4 @@ public class NetworkSysMain : UdonSharpBehaviour
             }
         }
     }
-    #endregion   
 }

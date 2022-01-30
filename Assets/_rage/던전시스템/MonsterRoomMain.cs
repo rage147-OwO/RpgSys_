@@ -17,9 +17,10 @@ public class MonsterRoomMain : UdonSharpBehaviour
     public Transform 플레이어죽었을때스폰위치;
     public Camera 카메라;
 
-    public GameObject[] 당근데이터;
 
-    [SerializeField] int 몬스터스폰범위 = 5;
+    public GameObject[] 몬스터가죽고나서드랍되는오브젝트0;
+    public GameObject[] 몬스터가죽고나서드랍되는오브젝트1;
+
     [SerializeField] public int 체력_최대체력 = 100;
     [SerializeField] public int 체력_현재플레이어체력 = 100;
 
@@ -27,13 +28,16 @@ public class MonsterRoomMain : UdonSharpBehaviour
 
     [System.NonSerialized] public bool 플레이어가죽었음;
 
+    public InventoryMain 인벤토리메인;
+    public GameObject 오브젝트풀0;
+    public GameObject 오브젝트풀1;
 
 
 
     #region 몬스터리스폰(Monster.cs)에서호출당해타이머동작후리스폰
     public void 몬스터리스폰(GameObject MonsterDeath)
     {
-        for(int i = 0; i < 몬스터데이터.Length; i++)
+        for (int i = 0; i < 몬스터데이터.Length; i++)
         {
             if (MonsterDeath == 몬스터데이터[i].gameObject)
             {
@@ -41,8 +45,6 @@ public class MonsterRoomMain : UdonSharpBehaviour
                 break;
             }
         }
-        //NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().당근++;
-        //NetworkSys.pool.Pool[NetworkSys.PlayerObjectNum].GetComponent<NetworkSysSub>().RequestSerialization();
     }
     public void MonseterRespawn0()
     {
@@ -69,11 +71,6 @@ public class MonsterRoomMain : UdonSharpBehaviour
         몬스터데이터[5].gameObject.SetActive(true);
     }
     #endregion
-
-
-
-
-
 
 
     public override void OnPlayerJoined(VRCPlayerApi player)
@@ -123,10 +120,12 @@ public class MonsterRoomMain : UdonSharpBehaviour
             몬스터데이터[i].MonsterDisEnable();
             몬스터데이터[i].gameObject.SetActive(false);
         }
-        for (int i = 0; i < 당근데이터.Length; i++)
+        for(int i = 0; i < 몬스터가죽고나서드랍되는오브젝트0.Length; i++)
         {
-            당근데이터[i].gameObject.SetActive(false);
-        }
+            몬스터가죽고나서드랍되는오브젝트0[i].SetActive(false);
+            몬스터가죽고나서드랍되는오브젝트1[i].SetActive(false);
+
+        }                                                                       
     }
  
     public override void OnPlayerRespawn(VRCPlayerApi player)
@@ -134,44 +133,7 @@ public class MonsterRoomMain : UdonSharpBehaviour
         방리셋();
         //Networking.LocalPlayer.CombatSetCurrentHitpoints(100);
     }
-    /*
-    public void 몬스터스폰()
-    {           
 
-        int counter = 0;
-        for(int i = 0; i < 몬스터데이터.Length; i++)
-        {
-            if (!몬스터데이터[i].gameObject.activeInHierarchy)
-            {
-                counter++;
-            }
-        }
-        int R = Random.Range(0, counter+1);
-
-        if (counter == 0)
-        {
-            Debug.Log("소환가능한 몬스터가 없음");
-            return;
-        }   
-             counter = 0;
-        for (int i = 0; i < 몬스터데이터.Length; i++)
-        {
-            if (!몬스터데이터[i].gameObject.activeInHierarchy)
-            {
-                if (counter == R)
-                {
-                    몬스터데이터[i].gameObject.SetActive(true);
-                    몬스터데이터[i].gameObject.transform.position = new Vector3(
-                    몬스터스폰위치중앙.position.x + Random.Range(-몬스터스폰범위, 몬스터스폰범위),
-                    몬스터스폰위치중앙.position.y,
-                    몬스터스폰위치중앙.position.z + Random.Range(-몬스터스폰범위, 몬스터스폰범위)
-                    );
-                    break;
-                }
-                counter++;
-            }
-        }
-    }   */
     public void 플레이어체력업데이트()
     {
 

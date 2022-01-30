@@ -19,6 +19,5 @@ public class 당근 : UdonSharpBehaviour
     private void FixedUpdate()
     {
         transform.position = Vector3.MoveTowards(gameObject.transform.position, Networking.LocalPlayer.GetBonePosition(HumanBodyBones.Spine), 당근속도);
-
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 using UnityEngine.UI;
+using VRC.SDK3.Components;
 
 [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
 public class Monster : UdonSharpBehaviour
@@ -50,9 +51,61 @@ public class Monster : UdonSharpBehaviour
     int 몬스터_몬스터체력 = 100;
     [SerializeField] float 몬스터_이동속도 = 0.02f;
     bool 종료;
-    float Timer = 2;    //fixedupdate에서 도는 타이머    ㅍ
+    float Timer = 2;    //fixedupdate에서 도는 타이머    
     Vector3 O_pos;
 
+
+    public void 몬스터1이죽었을경우()         //몬스터가 죽으면 Ui에 넣기
+    {
+        오브젝트0스폰();
+    }
+    public void 몬스터2이죽었을경우()
+    {
+        오브젝트1스폰();
+    }
+
+
+
+    void 오브젝트0스폰()
+    {
+        foreach (var 오브젝트 in 메인.몬스터가죽고나서드랍되는오브젝트0)
+        {
+            if (오브젝트.activeInHierarchy == false)
+            {
+                오브젝트.SetActive(true);
+                오브젝트.transform.position = this.transform.position;
+                if (Networking.LocalPlayer.IsUserInVR())
+                {
+                    메인.인벤토리메인.VR.SpawnButton(메인.오브젝트풀0, 오브젝트.name.Remove(오브젝트.name.Length - 3));
+                }
+                else
+                {
+                    메인.인벤토리메인.Deskop.SpawnButton(메인.오브젝트풀0, 오브젝트.name.Remove(오브젝트.name.Length - 3));
+                }
+                break;
+            }
+        }
+    }
+    void 오브젝트1스폰()
+    {
+        foreach (var 오브젝트 in 메인.몬스터가죽고나서드랍되는오브젝트1)
+        {
+            if (오브젝트.activeInHierarchy == false)
+            {
+                오브젝트.SetActive(true);
+                오브젝트.transform.position = this.transform.position;
+                if (Networking.LocalPlayer.IsUserInVR())
+                {
+                    메인.인벤토리메인.VR.SpawnButton(메인.오브젝트풀1, 오브젝트.name.Remove(오브젝트.name.Length - 3));
+                }
+                else
+                {
+                    메인.인벤토리메인.Deskop.SpawnButton(메인.오브젝트풀1, 오브젝트.name.Remove(오브젝트.name.Length - 3));
+                }
+                break;
+            }
+        }
+    }
     private void FixedUpdate()
     {
         PlayerPosition = Networking.LocalPlayer.GetPosition();
@@ -68,6 +121,8 @@ public class Monster : UdonSharpBehaviour
             Timer = Timer + Time.deltaTime;
         }
     }
+
+
     #region 플레이어감지와공격
     public void 플레이어감지트리거Enter()
     {
@@ -221,21 +276,21 @@ public class Monster : UdonSharpBehaviour
 
     void 몬스터_사망()
     {
-        당근스폰(this.transform.position);
+        if (this.name[name.Length - 5] == '1')
+        {
+            몬스터1이죽었을경우();
+        }
+        if (this.name[name.Length - 5] == '2')
+        {
+            몬스터2이죽었을경우();
+        }
         메인.몬스터리스폰(this.gameObject);                      
         this.gameObject.SetActive(false);
     }
-    void 당근스폰(Vector3 위치)
+
+    public void 티켓스폰()
     {
-        foreach (var 당근 in 메인.당근데이터)
-        {
-            if (당근.activeInHierarchy == false)
-            {
-                Debug.Log("당근스폰");
-                당근.SetActive(true);
-                당근.transform.position = 위치;
-                break;
-            }
-        }
+
     }
+
 }
