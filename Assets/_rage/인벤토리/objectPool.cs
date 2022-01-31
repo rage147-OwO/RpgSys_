@@ -29,408 +29,511 @@ public class objectPool : UdonSharpBehaviour
 
     public void PoolReturn0()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[0]);
         오브젝트풀.Return(오브젝트풀.Pool[0]);
     }
     public void PoolReturn1()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[1]);
         오브젝트풀.Return(오브젝트풀.Pool[1]);
     }
     public void PoolReturn2()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[2]);
         오브젝트풀.Return(오브젝트풀.Pool[2]);
     }
     public void PoolReturn3()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[3]);
         오브젝트풀.Return(오브젝트풀.Pool[3]);
     }
     public void PoolReturn4()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[4]);
         오브젝트풀.Return(오브젝트풀.Pool[4]);
     }
     public void PoolReturn5()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[5]);
         오브젝트풀.Return(오브젝트풀.Pool[5]);
     }
     public void PoolReturn6()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[6]);
         오브젝트풀.Return(오브젝트풀.Pool[6]);
     }
     public void PoolReturn7()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[7]);
         오브젝트풀.Return(오브젝트풀.Pool[7]);
     }
     public void PoolReturn8()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[8]);
         오브젝트풀.Return(오브젝트풀.Pool[8]);
     }
     public void PoolReturn9()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[9]);
         오브젝트풀.Return(오브젝트풀.Pool[9]);
     }
     public void PoolReturn10()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[10]);
         오브젝트풀.Return(오브젝트풀.Pool[10]);
     }
     public void PoolReturn11()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[11]);
         오브젝트풀.Return(오브젝트풀.Pool[11]);
     }
     public void PoolReturn12()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[12]);
         오브젝트풀.Return(오브젝트풀.Pool[12]);
     }
     public void PoolReturn13()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[13]);
         오브젝트풀.Return(오브젝트풀.Pool[13]);
     }
     public void PoolReturn14()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[14]);
         오브젝트풀.Return(오브젝트풀.Pool[14]);
     }
     public void PoolReturn15()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[15]);
         오브젝트풀.Return(오브젝트풀.Pool[15]);
     }
     public void PoolReturn16()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[16]);
         오브젝트풀.Return(오브젝트풀.Pool[16]);
     }
     public void PoolReturn17()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[17]);
         오브젝트풀.Return(오브젝트풀.Pool[17]);
     }
     public void PoolReturn18()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[18]);
         오브젝트풀.Return(오브젝트풀.Pool[18]);
     }
     public void PoolReturn19()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[19]);
         오브젝트풀.Return(오브젝트풀.Pool[19]);
     }
     public void PoolReturn20()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[20]);
         오브젝트풀.Return(오브젝트풀.Pool[20]);
     }
     public void PoolReturn21()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[21]);
         오브젝트풀.Return(오브젝트풀.Pool[21]);
     }
     public void PoolReturn22()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[22]);
         오브젝트풀.Return(오브젝트풀.Pool[22]);
     }
     public void PoolReturn23()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[23]);
         오브젝트풀.Return(오브젝트풀.Pool[23]);
     }
     public void PoolReturn24()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[24]);
         오브젝트풀.Return(오브젝트풀.Pool[24]);
     }
     public void PoolReturn25()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[25]);
         오브젝트풀.Return(오브젝트풀.Pool[25]);
     }
     public void PoolReturn26()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[26]);
         오브젝트풀.Return(오브젝트풀.Pool[26]);
     }
     public void PoolReturn27()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[27]);
         오브젝트풀.Return(오브젝트풀.Pool[27]);
     }
     public void PoolReturn28()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[28]);
         오브젝트풀.Return(오브젝트풀.Pool[28]);
     }
     public void PoolReturn29()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[29]);
         오브젝트풀.Return(오브젝트풀.Pool[29]);
     }
     public void PoolReturn30()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[30]);
         오브젝트풀.Return(오브젝트풀.Pool[30]);
     }
     public void PoolReturn31()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[31]);
         오브젝트풀.Return(오브젝트풀.Pool[31]);
     }
     public void PoolReturn32()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[32]);
         오브젝트풀.Return(오브젝트풀.Pool[32]);
     }
     public void PoolReturn33()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[33]);
         오브젝트풀.Return(오브젝트풀.Pool[33]);
     }
     public void PoolReturn34()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[34]);
         오브젝트풀.Return(오브젝트풀.Pool[34]);
     }
     public void PoolReturn35()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[35]);
         오브젝트풀.Return(오브젝트풀.Pool[35]);
     }
     public void PoolReturn36()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[36]);
         오브젝트풀.Return(오브젝트풀.Pool[36]);
     }
     public void PoolReturn37()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[37]);
         오브젝트풀.Return(오브젝트풀.Pool[37]);
     }
     public void PoolReturn38()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[38]);
         오브젝트풀.Return(오브젝트풀.Pool[38]);
     }
     public void PoolReturn39()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[39]);
         오브젝트풀.Return(오브젝트풀.Pool[39]);
     }
     public void PoolReturn40()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[40]);
         오브젝트풀.Return(오브젝트풀.Pool[40]);
     }
     public void PoolReturn41()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[41]);
         오브젝트풀.Return(오브젝트풀.Pool[41]);
     }
     public void PoolReturn42()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[42]);
         오브젝트풀.Return(오브젝트풀.Pool[42]);
     }
     public void PoolReturn43()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[43]);
         오브젝트풀.Return(오브젝트풀.Pool[43]);
     }
     public void PoolReturn44()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[44]);
         오브젝트풀.Return(오브젝트풀.Pool[44]);
     }
     public void PoolReturn45()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[45]);
         오브젝트풀.Return(오브젝트풀.Pool[45]);
     }
     public void PoolReturn46()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[46]);
         오브젝트풀.Return(오브젝트풀.Pool[46]);
     }
     public void PoolReturn47()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[47]);
         오브젝트풀.Return(오브젝트풀.Pool[47]);
     }
     public void PoolReturn48()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[48]);
         오브젝트풀.Return(오브젝트풀.Pool[48]);
     }
     public void PoolReturn49()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[49]);
         오브젝트풀.Return(오브젝트풀.Pool[49]);
     }
     public void PoolReturn50()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[50]);
         오브젝트풀.Return(오브젝트풀.Pool[50]);
     }
     public void PoolReturn51()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[51]);
         오브젝트풀.Return(오브젝트풀.Pool[51]);
     }
     public void PoolReturn52()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[52]);
         오브젝트풀.Return(오브젝트풀.Pool[52]);
     }
     public void PoolReturn53()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[53]);
         오브젝트풀.Return(오브젝트풀.Pool[53]);
     }
     public void PoolReturn54()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[54]);
         오브젝트풀.Return(오브젝트풀.Pool[54]);
     }
     public void PoolReturn55()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[55]);
         오브젝트풀.Return(오브젝트풀.Pool[55]);
     }
     public void PoolReturn56()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[56]);
         오브젝트풀.Return(오브젝트풀.Pool[56]);
     }
     public void PoolReturn57()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[57]);
         오브젝트풀.Return(오브젝트풀.Pool[57]);
     }
     public void PoolReturn58()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[58]);
         오브젝트풀.Return(오브젝트풀.Pool[58]);
     }
     public void PoolReturn59()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[59]);
         오브젝트풀.Return(오브젝트풀.Pool[59]);
     }
     public void PoolReturn60()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[60]);
         오브젝트풀.Return(오브젝트풀.Pool[60]);
     }
     public void PoolReturn61()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[61]);
         오브젝트풀.Return(오브젝트풀.Pool[61]);
     }
     public void PoolReturn62()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[62]);
         오브젝트풀.Return(오브젝트풀.Pool[62]);
     }
     public void PoolReturn63()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[63]);
         오브젝트풀.Return(오브젝트풀.Pool[63]);
     }
     public void PoolReturn64()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[64]);
         오브젝트풀.Return(오브젝트풀.Pool[64]);
     }
     public void PoolReturn65()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[65]);
         오브젝트풀.Return(오브젝트풀.Pool[65]);
     }
     public void PoolReturn66()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[66]);
         오브젝트풀.Return(오브젝트풀.Pool[66]);
     }
     public void PoolReturn67()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[67]);
         오브젝트풀.Return(오브젝트풀.Pool[67]);
     }
     public void PoolReturn68()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[68]);
         오브젝트풀.Return(오브젝트풀.Pool[68]);
     }
     public void PoolReturn69()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[69]);
         오브젝트풀.Return(오브젝트풀.Pool[69]);
     }
     public void PoolReturn70()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[70]);
         오브젝트풀.Return(오브젝트풀.Pool[70]);
     }
     public void PoolReturn71()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[71]);
         오브젝트풀.Return(오브젝트풀.Pool[71]);
     }
     public void PoolReturn72()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[72]);
         오브젝트풀.Return(오브젝트풀.Pool[72]);
     }
     public void PoolReturn73()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[73]);
         오브젝트풀.Return(오브젝트풀.Pool[73]);
     }
     public void PoolReturn74()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[74]);
         오브젝트풀.Return(오브젝트풀.Pool[74]);
     }
     public void PoolReturn75()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[75]);
         오브젝트풀.Return(오브젝트풀.Pool[75]);
     }
     public void PoolReturn76()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[76]);
         오브젝트풀.Return(오브젝트풀.Pool[76]);
     }
     public void PoolReturn77()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[77]);
         오브젝트풀.Return(오브젝트풀.Pool[77]);
     }
     public void PoolReturn78()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[78]);
         오브젝트풀.Return(오브젝트풀.Pool[78]);
     }
     public void PoolReturn79()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[79]);
         오브젝트풀.Return(오브젝트풀.Pool[79]);
     }
     public void PoolReturn80()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[80]);
         오브젝트풀.Return(오브젝트풀.Pool[80]);
     }
     public void PoolReturn81()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[81]);
         오브젝트풀.Return(오브젝트풀.Pool[81]);
     }
     public void PoolReturn82()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[82]);
         오브젝트풀.Return(오브젝트풀.Pool[82]);
     }
     public void PoolReturn83()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[83]);
         오브젝트풀.Return(오브젝트풀.Pool[83]);
     }
     public void PoolReturn84()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[84]);
         오브젝트풀.Return(오브젝트풀.Pool[84]);
     }
     public void PoolReturn85()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[85]);
         오브젝트풀.Return(오브젝트풀.Pool[85]);
     }
     public void PoolReturn86()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[86]);
         오브젝트풀.Return(오브젝트풀.Pool[86]);
     }
     public void PoolReturn87()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[87]);
         오브젝트풀.Return(오브젝트풀.Pool[87]);
     }
     public void PoolReturn88()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[88]);
         오브젝트풀.Return(오브젝트풀.Pool[88]);
     }
     public void PoolReturn89()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[89]);
         오브젝트풀.Return(오브젝트풀.Pool[89]);
     }
     public void PoolReturn90()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[90]);
         오브젝트풀.Return(오브젝트풀.Pool[90]);
     }
     public void PoolReturn91()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[91]);
         오브젝트풀.Return(오브젝트풀.Pool[91]);
     }
     public void PoolReturn92()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[92]);
         오브젝트풀.Return(오브젝트풀.Pool[92]);
     }
     public void PoolReturn93()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[93]);
         오브젝트풀.Return(오브젝트풀.Pool[93]);
     }
     public void PoolReturn94()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[94]);
         오브젝트풀.Return(오브젝트풀.Pool[94]);
     }
     public void PoolReturn95()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[95]);
         오브젝트풀.Return(오브젝트풀.Pool[95]);
     }
     public void PoolReturn96()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[96]);
         오브젝트풀.Return(오브젝트풀.Pool[96]);
     }
     public void PoolReturn97()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[97]);
         오브젝트풀.Return(오브젝트풀.Pool[97]);
     }
     public void PoolReturn98()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[98]);
         오브젝트풀.Return(오브젝트풀.Pool[98]);
     }
     public void PoolReturn99()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[99]);
         오브젝트풀.Return(오브젝트풀.Pool[99]);
     }
     public void PoolReturn100()
     {
+        Networking.SetOwner(Networking.LocalPlayer, 오브젝트풀.Pool[100]);
         오브젝트풀.Return(오브젝트풀.Pool[100]);
     }
+
+
 
     #endregion
 
@@ -456,7 +559,6 @@ public class objectPool : UdonSharpBehaviour
         {
             if (!오브젝트풀.Pool[i].activeInHierarchy)
             {
-
                 (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
                 break;
             }

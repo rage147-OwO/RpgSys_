@@ -5,7 +5,6 @@ using VRC.SDKBase;
 using VRC.Udon;
 
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
-
 public class inventoryVR : UdonSharpBehaviour
 {
     private void FixedUpdate()

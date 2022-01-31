@@ -226,6 +226,7 @@ public class Monster : UdonSharpBehaviour
         몬스터애니메이션.Rebind();
         몬스터애니메이션.Play(이름_대기애니메이션, -1);
         PlayerPosition = Networking.LocalPlayer.GetPosition();
+        PlayerTracking = false;
 
     }
     public void MonsterDisEnable()  //비활성화

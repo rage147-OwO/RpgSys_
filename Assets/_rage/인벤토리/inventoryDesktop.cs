@@ -28,7 +28,7 @@ public class inventoryDesktop : UdonSharpBehaviour
     {
         CloneButtonTemp = VRCInstantiate(버튼);
         CloneButtonTemp.SetActive(true);
-        CloneButtonTemp.transform.SetParent(콘텐츠필드.transform);
+        CloneButtonTemp.transform.SetParent(콘텐츠필드.transform,false);
         ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text= _TextName;
         CloneButtonTemp.GetComponent<spawnbutton>().ObjectPool = _Objectpool;
     }
