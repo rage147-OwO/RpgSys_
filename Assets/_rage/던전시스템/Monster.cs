@@ -218,6 +218,7 @@ public class Monster : UdonSharpBehaviour
             this.gameObject.transform.position = O_pos;
         }
         종료 = false;
+        피격쿨타임중 = false;
         HpBar.value = 몬스터_최대체력;
         몬스터애니메이션 = (Animator)this.gameObject.GetComponent(typeof(Animator));
         몬스터_몬스터체력 = 몬스터_최대체력;
@@ -259,7 +260,6 @@ public class Monster : UdonSharpBehaviour
             {
                 if (Networking.GetOwner(other.gameObject)==Networking.LocalPlayer)
                 {
-                    SetHpBar();
                     if (other.name.Contains("A"))
                     {
                         몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기A데미지;
@@ -276,6 +276,7 @@ public class Monster : UdonSharpBehaviour
                     {
                         몬스터_사망();
                     }
+                    SetHpBar();
                     피격쿨타임중 = true;
                     SendCustomEventDelayedSeconds("피격쿨타임돌리기", 몬스터피격쿨타임);
                 }
