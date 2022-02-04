@@ -6,12 +6,14 @@ using VRC.Udon;
 using UnityEngine.UI;
 using VRC.SDK3.Components;
 
-[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
+[UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
 public class Monster : UdonSharpBehaviour
 {
     const int 무기A데미지 = 40;
     const int 무기B데미지 = 60;
     const int 무기C데미지 = 100;
+    const float 몬스터피격쿨타임 = 0.5f;
+    bool 피격쿨타임중=false;
 
     [System.NonSerialized, FieldChangeCallback(nameof(PlayerTracking))] private bool _playerTracking;
     public bool PlayerTracking
@@ -121,7 +123,6 @@ public class Monster : UdonSharpBehaviour
             Timer = Timer + Time.deltaTime;
         }
     }
-
 
     #region 플레이어감지와공격
     public void 플레이어감지트리거Enter()
@@ -254,24 +255,37 @@ public class Monster : UdonSharpBehaviour
     {
         if (other.name.Contains("weapon"))
         {
-            SetHpBar();
-            if (other.name.Contains("A"))
+            if (!피격쿨타임중)
             {
-                몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기A데미지;
-            }
-            else if (other.name.Contains("B"))
-            {
-                몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기B데미지;
-            }
-            else if (other.name.Contains("C"))
-            {
-                몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기C데미지;
-            }
-            if (몬스터_몬스터체력 < 0)
-            {
-                몬스터_사망();
+                if (Networking.GetOwner(other.gameObject)==Networking.LocalPlayer)
+                {
+                    SetHpBar();
+                    if (other.name.Contains("A"))
+                    {
+                        몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기A데미지;
+                    }
+                    else if (other.name.Contains("B"))
+                    {
+                        몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기B데미지;
+                    }
+                    else if (other.name.Contains("C"))
+                    {
+                        몬스터_몬스터체력 = 몬스터_몬스터체력 - 무기C데미지;
+                    }
+                    if (몬스터_몬스터체력 < 0)
+                    {
+                        몬스터_사망();
+                    }
+                    피격쿨타임중 = true;
+                    SendCustomEventDelayedSeconds("피격쿨타임돌리기", 몬스터피격쿨타임);
+                }
+            
             }
         }
+    }
+    public void 피격쿨타임돌리기()
+    {
+        피격쿨타임중 = false;
     }
     #endregion
 
