@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62eab678c02d50042baa35d04cd0db48, type: 3}
   m_Name: CyanTrigger_Empty
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 0}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: dc4eca242272bee499584b52d96f3688,
+    type: 2}
   udonAssembly: 
   assemblyError: 
-  triggerHash: 
+  triggerHash: Empty
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -26,28 +27,10 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: warningMessages
-      Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
+      Entry: 6
       Data: 
     - Name: errorMessages
-      Entry: 7
-      Data: 1|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
+      Entry: 6
       Data: 
     - Name: cyanTriggerDataInstance
       Entry: 6
@@ -57,11 +40,11 @@ MonoBehaviour:
       Data: 
     - Name: heapDefaultValues
       Entry: 7
-      Data: 2|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.ValueTuple`2[[System.Object,
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.ValueTuple`2[[System.Object,
         mscorlib],[System.Type, mscorlib]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
         mscorlib]], mscorlib
     - Name: 
       Entry: 8
