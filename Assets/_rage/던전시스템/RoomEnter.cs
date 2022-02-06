@@ -10,8 +10,11 @@ public class RoomEnter : UdonSharpBehaviour
     public Animator 페이드아웃;
     public override void OnPlayerTriggerEnter(VRCPlayerApi player)
     {
-        메인.방입장();
         페이드아웃.Play("페이드아웃1", -1, 0f);
+    }
+    public void Enter()
+    {
+            메인.방입장();
     }
 
 }
