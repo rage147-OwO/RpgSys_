@@ -42,9 +42,9 @@ public class inventoryDesktop : UdonSharpBehaviour
                 PickupTemp = Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right);
                 if (PickupTemp.GetComponentInParent<objectPool>() != null)
                 {
-                    SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
+                    SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 4));
                     PickupTemp.Drop();
-                    PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.name[PickupTemp.name.Length - 2]);
+                    PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex().ToString());
                 }
             }
         }

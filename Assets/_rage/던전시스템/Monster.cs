@@ -55,6 +55,7 @@ public class Monster : UdonSharpBehaviour
     bool 종료;
     float Timer = 2;    //fixedupdate에서 도는 타이머    
     Vector3 O_pos;
+    bool check;
 
 
     public void 몬스터1이죽었을경우()         //몬스터가 죽으면 Ui에 넣기
@@ -127,18 +128,19 @@ public class Monster : UdonSharpBehaviour
     #region 플레이어감지와공격
     public void 플레이어감지트리거Enter()
     {
+        check = true;
         PlayerTracking = true;
         this.transform.position = new Vector3(this.transform.position.x, 메인.몬스터스폰위치중앙.position.y, this.transform.position.z);
 
     }
     public void 플레이어감지트리거Exit()
     {
-        PlayerTracking = false;
+        check = false;
         몬스터애니메이션.Rebind();
         몬스터애니메이션.Play(이름_대기애니메이션, -1);
         this.transform.position = new Vector3(this.transform.position.x, 메인.몬스터스폰위치중앙.position.y, this.transform.position.z);
-
-
+        PlayerTracking = false;
+        플레이어가콜라이더안에있음 = false;
     }
 
     //플레이어가 공격범위 안에 들어오면       
@@ -147,7 +149,7 @@ public class Monster : UdonSharpBehaviour
         if (player == Networking.LocalPlayer)
         {
             플레이어가콜라이더안에있음 = true;
-            if (!몬스터_기본공격쿨타임중)
+            if (!몬스터_기본공격쿨타임중)                                        
             {
                 몬스터_기본공격쿨타임중 = true;
                 PlayerTracking = false;
@@ -158,16 +160,18 @@ public class Monster : UdonSharpBehaviour
     }
     public void 공격쿨타임()
     {
-        몬스터_기본공격쿨타임중 = false;
-        if (플레이어가콜라이더안에있음)
+        if (check)
         {
-            OnPlayerTriggerEnter(Networking.LocalPlayer);
+            몬스터_기본공격쿨타임중 = false;
+            if (플레이어가콜라이더안에있음)
+            {
+                OnPlayerTriggerEnter(Networking.LocalPlayer);
+            }
+            else
+            {
+                PlayerTracking = true;
+            }
         }
-        else
-        {
-            PlayerTracking = true;
-        }
-
     }
     void 몬스터_공격()
     {
@@ -198,7 +202,7 @@ public class Monster : UdonSharpBehaviour
     }
 
 
-    #region "몬스터활성화,스타트,인에이블"
+    #region 몬스터활성화,스타트,인에이블
     private void Start()
     {
         O_pos = this.transform.position;
