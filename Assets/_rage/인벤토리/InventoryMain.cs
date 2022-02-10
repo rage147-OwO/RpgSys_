@@ -24,11 +24,4 @@ public class InventoryMain : UdonSharpBehaviour
             VR더미.gameObject.SetActive(false);
         }
     }
-    public override void OnPlayerTriggerEnter(VRCPlayerApi player)
-    {
-
-    }
-
-
-
 }
