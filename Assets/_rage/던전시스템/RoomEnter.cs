@@ -10,11 +10,26 @@ public class RoomEnter : UdonSharpBehaviour
     public Animator 페이드아웃;
     public override void OnPlayerTriggerEnter(VRCPlayerApi player)
     {
-        페이드아웃.Play("페이드아웃1", -1, 0f);
+        if (player == Networking.LocalPlayer)
+        {
+            if (this.gameObject.name.Equals("입장큐브"))
+            {
+                SendCustomEventDelayedSeconds("Enter", 2f);
+            }
+            else if (this.gameObject.name.Equals("퇴장큐브"))
+            {
+                SendCustomEventDelayedSeconds("Exit", 2f);
+            }
+            페이드아웃.Play("페이드아웃1", -1, 0f);
+        }
     }
     public void Enter()
     {
-            메인.방입장();
+        메인.방입장();
+    }
+    public void Exit()
+    {         
+        메인.방퇴장();
     }
 
 }

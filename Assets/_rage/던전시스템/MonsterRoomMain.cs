@@ -8,12 +8,14 @@ using VRC.SDK3.Components;
 [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
 public class MonsterRoomMain : UdonSharpBehaviour
 {
+    public GameObject 던전디자인;
     public NetworkSysMain NetworkSys;
     public Monster[] 몬스터데이터;
 
     public Transform 몬스터스폰위치중앙;
 
     public Transform 입장위치;
+    public Transform 퇴장위치;
     public Transform 플레이어죽었을때스폰위치;
     public Camera 카메라;
 
@@ -93,6 +95,7 @@ public class MonsterRoomMain : UdonSharpBehaviour
 
     public void 방입장()
     {
+        던전디자인.SetActive(true);
         방리셋();
         Networking.LocalPlayer.TeleportTo(입장위치.position, 입장위치.rotation);
         //Networking.LocalPlayer.CombatSetMaxHitpoints(100);
@@ -101,6 +104,15 @@ public class MonsterRoomMain : UdonSharpBehaviour
         {
             몬스터스폰(i);
         }
+    }
+    public void 방퇴장()
+    {
+        던전디자인.SetActive(false);
+        for (int i = 0; i < 몬스터데이터.Length; i++)
+        {
+            몬스터데이터[i].gameObject.SetActive(false);
+        }
+        Networking.LocalPlayer.TeleportTo(퇴장위치.position, 퇴장위치.rotation);
     }
 
     public void 몬스터스폰(int Num)

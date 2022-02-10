@@ -31,7 +31,22 @@ public class VRbag : UdonSharpBehaviour
         CloneButtonTemp = VRCInstantiate(버튼);
         CloneButtonTemp.SetActive(true);
         CloneButtonTemp.transform.SetParent(콘텐츠필드.transform,false);
-        ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = _TextName;
+        if (_TextName.Contains("weaponA"))
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "일반검";
+        }
+        else if (_TextName.Contains("weaponB"))
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "철검";
+        }
+        else if (_TextName.Contains("weaponC"))
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "황금검";
+        }
+        else
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = _TextName;
+        }
         CloneButtonTemp.GetComponent<spawnbutton>().ObjectPool = _Objectpool;
     }
 
