@@ -7,25 +7,46 @@ using VRC.Udon;
 public class WeaponSpawnButton : UdonSharpBehaviour
 {
     public objectPool Pool;
+    Transform temp;
+    private void Start()
+    {
+        temp = transform;
+    }
     private void OnTriggerEnter(Collider other)
     {
-        for (int i = 0; i < Pool.오브젝트풀.Pool.Length; i++)
+        if (Networking.IsOwner(other.gameObject))
         {
-            if (Pool.오브젝트풀.Pool[i].gameObject==other)
+            if (Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right) != null)
             {
-                Pool.SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + i.ToString());
+                Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right).Drop();
+            }
+            if (Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left) != null)
+            {
+                Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left).Drop();
+            }           
+        }
+        if (Networking.IsMaster)
+        {
+            if (other.GetComponentInParent<objectPool>() != null)
+            {
+                other.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + other.transform.GetSiblingIndex().ToString());;
             }
         }
     }
+
     public override void Interact()
     {                             
         for(int i = 0; i < Pool.오브젝트풀.Pool.Length; i++)
         {
             if (!Pool.오브젝트풀.Pool[i].gameObject.activeInHierarchy)
             {
-                Pool.오브젝트풀.TryToSpawn();
+                SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "TrySpawn");
                 break;
             }
         }
+    }
+    public void TrySpawn()
+    {
+        Pool.오브젝트풀.TryToSpawn();
     }
 }

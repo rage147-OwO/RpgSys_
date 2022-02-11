@@ -63,7 +63,7 @@ public class VRbag : UdonSharpBehaviour
                     {
                         SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
                         PickupTemp.Drop();
-                        PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.name[PickupTemp.name.Length - 2]);
+                        PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex().ToString());
                     }
                 }
             }
@@ -76,7 +76,7 @@ public class VRbag : UdonSharpBehaviour
                     {
                         SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
                         PickupTemp.Drop();
-                        PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.name[PickupTemp.name.Length - 2]);
+                        PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex().ToString());
                     }
                 }
             }
