@@ -33,6 +33,8 @@ public class MonsterRoomMain : UdonSharpBehaviour
     public InventoryMain 인벤토리메인;
     public GameObject 오브젝트풀0;
     public GameObject 오브젝트풀1;
+    public GameObject 던전브금;
+    public GameObject 광장브금;
 
 
 
@@ -158,6 +160,8 @@ public class MonsterRoomMain : UdonSharpBehaviour
                 SendCustomEventDelayedSeconds("플레이어사망모션", 0.5f);
                 SendCustomEventDelayedSeconds("방리셋", 5.9f);
                 플레이어가죽었음 = true;
+                던전브금.gameObject.SetActive(false);
+                광장브금.gameObject.SetActive(true);
             }
         }
     }
