@@ -15,37 +15,49 @@ MonoBehaviour:
   serializedUdonProgramAsset: {fileID: 11400000, guid: 14cf2a5ebc7fa2e48b29289dfcf3de61,
     type: 2}
   udonAssembly: ".data_start\r\n  .export _this_gameobject\r\n  .export _this_transform\r\n 
-    .export _this_udonbehaviour\r\n  .export __7_ref_UnityEngineGameObject\r\n  .export
-    __8_ref_SystemBoolean\r\n  .export __13_ref_UnityEngineGameObject\r\n  .export
-    __14_ref_SystemBoolean\r\n  uint_return_address: %SystemUInt32, null\r\n  uint_int_end_address:
+    .export _this_udonbehaviour\r\n  .export __9_ref_UnityEngineGameObject\r\n  .export
+    __10_ref_SystemBoolean\r\n  .export __16_ref_UnityEngineGameObject\r\n  .export
+    __17_ref_SystemBoolean\r\n  uint_return_address: %SystemUInt32, null\r\n  uint_int_end_address:
     %SystemUInt32, null\r\n  _this_gameobject: %UnityEngineGameObject, this\r\n 
     _this_transform: %UnityEngineTransform, this\r\n  _this_udonbehaviour: %VRCUdonCommonInterfacesIUdonEventReceiver,
     null\r\n  _this_local_player: %VRCSDKBaseVRCPlayerApi, null\r\n  __6_jump_return_0_SystemUInt32:
-    %SystemUInt32, null\r\n  __7_ref_UnityEngineGameObject: %UnityEngineGameObject,
-    this\r\n  __8_ref_SystemBoolean: %SystemBoolean, null\r\n  __9_jump_return_1_SystemUInt32:
-    %SystemUInt32, null\r\n  __10_const_SystemSingle: %SystemSingle, null\r\n  __11_const_SystemString:
-    %SystemString, null\r\n  __12_const_VRCUdonCommonEnumsEventTiming: %VRCUdonCommonEnumsEventTiming,
-    null\r\n  __13_ref_UnityEngineGameObject: %UnityEngineGameObject, this\r\n  __14_ref_SystemBoolean:
-    %SystemBoolean, null\r\n.data_end\r\n\n.code_start\r\n  .export _start\r\n  _start:\r\n   
-    PUSH, uint_int_end_address\r\n    PUSH, _this_local_player\r\n    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
+    %SystemUInt32, null\r\n  __7_const_VRCUdonCommonInterfacesNetworkEventTarget:
+    %VRCUdonCommonInterfacesNetworkEventTarget, null\r\n  __8_const_SystemString:
+    %SystemString, null\r\n  __9_ref_UnityEngineGameObject: %UnityEngineGameObject,
+    this\r\n  __10_ref_SystemBoolean: %SystemBoolean, null\r\n  __11_jump_return_1_SystemUInt32:
+    %SystemUInt32, null\r\n  __12_const_SystemString: %SystemString, null\r\n  __13_const_SystemSingle:
+    %SystemSingle, null\r\n  __14_const_SystemString: %SystemString, null\r\n  __15_const_VRCUdonCommonEnumsEventTiming:
+    %VRCUdonCommonEnumsEventTiming, null\r\n  __16_ref_UnityEngineGameObject: %UnityEngineGameObject,
+    this\r\n  __17_ref_SystemBoolean: %SystemBoolean, null\r\n.data_end\r\n\n.code_start\r\n 
+    .export _start\r\n  _start:\r\n    PUSH, uint_int_end_address\r\n    PUSH, _this_local_player\r\n   
+    EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n   
     PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT, uint_return_address\r\n\r\n 
     .export _interact\r\n  _interact:\r\n    PUSH, uint_int_end_address\r\n    PUSH,
-    __6_jump_return_0_SystemUInt32\r\n    JUMP, 0x00000070\r\n    PUSH, __9_jump_return_1_SystemUInt32\r\n   
-    JUMP, 0x000000A4\r\n    PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT,
+    __6_jump_return_0_SystemUInt32\r\n    JUMP, 0x00000070\r\n    PUSH, __11_jump_return_1_SystemUInt32\r\n   
+    JUMP, 0x000000E0\r\n    PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT,
     uint_return_address\r\n\r\n  __intern_event_0_actions:\r\n    PUSH, uint_int_end_address\r\n   
-    PUSH, __7_ref_UnityEngineGameObject\r\n    PUSH, __8_ref_SystemBoolean\r\n   
-    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, _this_udonbehaviour\r\n    PUSH, __7_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n   
+    PUSH, __8_const_SystemString\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT, uint_return_address\r\n\r\n 
+    .export intern_event_0_networked_actions\r\n  intern_event_0_networked_actions:\r\n   
+    PUSH, uint_int_end_address\r\n    PUSH, __9_ref_UnityEngineGameObject\r\n   
+    PUSH, __10_ref_SystemBoolean\r\n    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
     PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT, uint_return_address\r\n\r\n 
     __intern_event_1_actions:\r\n    PUSH, uint_int_end_address\r\n    PUSH, _this_udonbehaviour\r\n   
-    PUSH, __11_const_SystemString\r\n    PUSH, __10_const_SystemSingle\r\n    PUSH,
-    __12_const_VRCUdonCommonEnumsEventTiming\r\n    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
+    PUSH, __7_const_VRCUdonCommonInterfacesNetworkEventTarget\r\n    PUSH, __12_const_SystemString\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n   
+    PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT, uint_return_address\r\n\r\n 
+    .export intern_event_1_networked_actions\r\n  intern_event_1_networked_actions:\r\n   
+    PUSH, uint_int_end_address\r\n    PUSH, _this_udonbehaviour\r\n    PUSH, __14_const_SystemString\r\n   
+    PUSH, __13_const_SystemSingle\r\n    PUSH, __15_const_VRCUdonCommonEnumsEventTiming\r\n   
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEventDelayedSeconds__SystemString_SystemSingle_VRCUdonCommonEnumsEventTiming__SystemVoid\"\r\n   
     PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT, uint_return_address\r\n\r\n 
     .export __intern_event_1_delayed_actions\r\n  __intern_event_1_delayed_actions:\r\n   
-    PUSH, uint_int_end_address\r\n    PUSH, __13_ref_UnityEngineGameObject\r\n   
-    PUSH, __14_ref_SystemBoolean\r\n    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
+    PUSH, uint_int_end_address\r\n    PUSH, __16_ref_UnityEngineGameObject\r\n   
+    PUSH, __17_ref_SystemBoolean\r\n    EXTERN, \"UnityEngineGameObject.__SetActive__SystemBoolean__SystemVoid\"\r\n   
     PUSH, uint_return_address\r\n    COPY\r\n    JUMP_INDIRECT, uint_return_address\r\n\r\n.code_end\r\n"
   assemblyError: 
-  triggerHash: 57588D0C43F21809EF3FAD6335AF42B1
+  triggerHash: 50BB182345D7945A72C24BBC1703C5AE
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -304,7 +316,7 @@ MonoBehaviour:
       Data: 
     - Name: broadcast
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: delay
       Entry: 4
       Data: 0
@@ -524,7 +536,7 @@ MonoBehaviour:
       Data: 
     - Name: broadcast
       Entry: 3
-      Data: 0
+      Data: 2
     - Name: delay
       Entry: 4
       Data: 2
@@ -576,7 +588,7 @@ MonoBehaviour:
       Data: 41|CyanTrigger.CyanTriggerActionDataReferenceIndex, Assembly-CSharp-Editor
     - Name: symbolName
       Entry: 1
-      Data: __7_ref_UnityEngineGameObject
+      Data: __9_ref_UnityEngineGameObject
     - Name: symbolType
       Entry: 7
       Data: 42|System.RuntimeType, mscorlib
@@ -606,7 +618,7 @@ MonoBehaviour:
       Data: 43|CyanTrigger.CyanTriggerActionDataReferenceIndex, Assembly-CSharp-Editor
     - Name: symbolName
       Entry: 1
-      Data: __8_ref_SystemBoolean
+      Data: __10_ref_SystemBoolean
     - Name: symbolType
       Entry: 7
       Data: 44|System.RuntimeType, mscorlib
@@ -636,7 +648,7 @@ MonoBehaviour:
       Data: 45|CyanTrigger.CyanTriggerActionDataReferenceIndex, Assembly-CSharp-Editor
     - Name: symbolName
       Entry: 1
-      Data: __13_ref_UnityEngineGameObject
+      Data: __16_ref_UnityEngineGameObject
     - Name: symbolType
       Entry: 9
       Data: 42
@@ -660,7 +672,7 @@ MonoBehaviour:
       Data: 46|CyanTrigger.CyanTriggerActionDataReferenceIndex, Assembly-CSharp-Editor
     - Name: symbolName
       Entry: 1
-      Data: __14_ref_SystemBoolean
+      Data: __17_ref_SystemBoolean
     - Name: symbolType
       Entry: 9
       Data: 44
@@ -724,7 +736,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 15
+      Data: 18
     - Name: 
       Entry: 7
       Data: 
@@ -920,7 +932,75 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __7_ref_UnityEngineGameObject
+      Data: __7_const_VRCUdonCommonInterfacesNetworkEventTarget
+    - Name: $v
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
+        mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: 57|VRC.Udon.Common.Interfaces.NetworkEventTarget, VRC.Udon.Common
+    - Name: 
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: 58|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: VRC.Udon.Common.Interfaces.NetworkEventTarget, VRC.Udon.Common
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: __8_const_SystemString
+    - Name: $v
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
+        mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: 59|System.String, mscorlib
+    - Name: 
+      Entry: 1
+      Data: intern_event_0_networked_actions
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 7
+      Data: 60|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: System.String, mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: __9_ref_UnityEngineGameObject
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
@@ -942,7 +1022,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __8_ref_SystemBoolean
+      Data: __10_ref_SystemBoolean
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
@@ -964,14 +1044,14 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __9_jump_return_1_SystemUInt32
+      Data: __11_jump_return_1_SystemUInt32
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 57|System.UInt32, mscorlib
+      Data: 61|System.UInt32, mscorlib
     - Name: 
       Entry: 3
       Data: 84
@@ -992,14 +1072,42 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __10_const_SystemSingle
+      Data: __12_const_SystemString
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 58|System.Single, mscorlib
+      Data: 62|System.String, mscorlib
+    - Name: 
+      Entry: 1
+      Data: intern_event_1_networked_actions
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Item2
+      Entry: 9
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: __13_const_SystemSingle
+    - Name: $v
+      Entry: 7
+      Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
+        mscorlib
+    - Name: Item1
+      Entry: 7
+      Data: 63|System.Single, mscorlib
     - Name: 
       Entry: 4
       Data: 2
@@ -1008,7 +1116,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 59|System.RuntimeType, mscorlib
+      Data: 64|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: System.Single, mscorlib
@@ -1026,14 +1134,14 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __11_const_SystemString
+      Data: __14_const_SystemString
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 60|System.String, mscorlib
+      Data: 65|System.String, mscorlib
     - Name: 
       Entry: 1
       Data: __intern_event_1_delayed_actions
@@ -1041,14 +1149,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: Item2
-      Entry: 7
-      Data: 61|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: System.String, mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
+      Entry: 9
+      Data: 60
     - Name: 
       Entry: 8
       Data: 
@@ -1060,14 +1162,14 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __12_const_VRCUdonCommonEnumsEventTiming
+      Data: __15_const_VRCUdonCommonEnumsEventTiming
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
         mscorlib
     - Name: Item1
       Entry: 7
-      Data: 62|VRC.Udon.Common.Enums.EventTiming, VRC.Udon.Common
+      Data: 66|VRC.Udon.Common.Enums.EventTiming, VRC.Udon.Common
     - Name: 
       Entry: 3
       Data: 0
@@ -1076,7 +1178,7 @@ MonoBehaviour:
       Data: 
     - Name: Item2
       Entry: 7
-      Data: 63|System.RuntimeType, mscorlib
+      Data: 67|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
       Data: VRC.Udon.Common.Enums.EventTiming, VRC.Udon.Common
@@ -1094,7 +1196,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __13_ref_UnityEngineGameObject
+      Data: __16_ref_UnityEngineGameObject
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],
@@ -1116,7 +1218,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: __14_ref_SystemBoolean
+      Data: __17_ref_SystemBoolean
     - Name: $v
       Entry: 7
       Data: System.ValueTuple`2[[System.Object, mscorlib],[System.Type, mscorlib]],

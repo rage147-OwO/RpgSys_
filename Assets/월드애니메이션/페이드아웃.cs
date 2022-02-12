@@ -9,6 +9,9 @@ public class 페이드아웃 : UdonSharpBehaviour
     public Animator Fadeout;
     public override void OnPlayerTriggerEnter(VRCPlayerApi player)
     {
-        Fadeout.Play("페이드아웃1", -1, 0f);
+        if (Networking.LocalPlayer == player)
+        {
+            Fadeout.Play("페이드아웃1", -1, 0f);
+        }
     }
 }
