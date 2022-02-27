@@ -16,6 +16,10 @@ public class objectPool : UdonSharpBehaviour
         PoolMain = GetComponentInParent<ObjectPoolMain>();
         오브젝트풀 = (VRCObjectPool)GetComponent(typeof(VRCObjectPool));
     }
+    public override void Interact()
+    {
+        오브젝트풀.TryToSpawn();
+    }
     public void SpawnReq(int playerNum)
     {
         SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "Spawn" + playerNum);
