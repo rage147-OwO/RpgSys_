@@ -29,7 +29,22 @@ public class inventoryDesktop : UdonSharpBehaviour
         CloneButtonTemp = VRCInstantiate(버튼);
         CloneButtonTemp.SetActive(true);
         CloneButtonTemp.transform.SetParent(콘텐츠필드.transform,false);
-        ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text= _TextName;
+        if (_TextName.Contains("weaponA"))
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "일반검";
+        }
+        else if (_TextName.Contains("weaponB"))
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "철검";
+        }
+        else if (_TextName.Contains("weaponC"))
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "황금검";
+        }
+        else
+        {
+            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = _TextName;
+        }
         CloneButtonTemp.GetComponent<spawnbutton>().ObjectPool = _Objectpool;
     }
 
@@ -42,9 +57,9 @@ public class inventoryDesktop : UdonSharpBehaviour
                 PickupTemp = Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right);
                 if (PickupTemp.GetComponentInParent<objectPool>() != null)
                 {
-                    SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
+                    SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 4));
                     PickupTemp.Drop();
-                    PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex());
+                    PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex().ToString());
                 }
             }
         }

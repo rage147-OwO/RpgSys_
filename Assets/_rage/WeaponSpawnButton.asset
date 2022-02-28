@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
-  m_Name: RoomEnter
+  m_Name: WeaponSpawnButton
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 772e2abc699a29443a8fd13d7f625aba,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 9a34822332fb919428aa55d76496063a,
     type: 2}
   udonAssembly: 
   assemblyError: 
-  sourceCsScript: {fileID: 11500000, guid: 06b66bcd98a97c5488d3ac52728a1c9e, type: 3}
-  behaviourSyncMode: 1
+  sourceCsScript: {fileID: 11500000, guid: f5c99ab157887ac4ead90548ecd2f57c, type: 3}
+  behaviourSyncMode: 4
   behaviourIDHeapVarName: __refl_const_intnl_udonTypeID
   compileErrors: []
-  hasInteractEvent: 0
+  hasInteractEvent: 1
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11500000, guid: 18b6738701d70fe4da9f215549b3f1e3, type: 3}
+    - {fileID: 11500000, guid: ec90d52fe1f13cb48acdeedb96859ec1, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -50,7 +50,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uBA54\uC778"
+      Data: Pool
     - Name: $v
       Entry: 7
       Data: 2|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -62,7 +62,7 @@ MonoBehaviour:
       Data: 4|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: MonsterRoomMain, Assembly-CSharp
+      Data: objectPool, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
@@ -77,10 +77,10 @@ MonoBehaviour:
       Data: VRCUdonUdonBehaviour
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uBA54\uC778"
+      Data: Pool
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uBA54\uC778"
+      Data: Pool
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -113,7 +113,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uD398\uC774\uB4DC\uC544\uC6C3"
+      Data: temp
     - Name: $v
       Entry: 7
       Data: 6|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -125,25 +125,25 @@ MonoBehaviour:
       Data: 8|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: UnityEngine.Animator, UnityEngine.AnimationModule
+      Data: UnityEngine.Transform, UnityEngine.CoreModule
     - Name: 
       Entry: 8
       Data: 
     - Name: declarationType
       Entry: 3
-      Data: 1
+      Data: 2
     - Name: syncMode
       Entry: 3
       Data: 0
     - Name: symbolResolvedTypeName
       Entry: 1
-      Data: UnityEngineAnimator
+      Data: UnityEngineTransform
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uD398\uC774\uB4DC\uC544\uC6C3"
+      Data: temp
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uD398\uC774\uB4DC\uC544\uC6C3"
+      Data: temp
     - Name: symbolDefaultValue
       Entry: 6
       Data: 

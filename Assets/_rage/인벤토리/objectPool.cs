@@ -1331,6 +1331,527 @@ public class objectPool : UdonSharpBehaviour
             }
         }
     }
+    public void Spawn61()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[61].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[61].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn62()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[62].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[62].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn63()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[63].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[63].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn64()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[64].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[64].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn65()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[65].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[65].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn66()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[66].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[66].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn67()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[67].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[67].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn68()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[68].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[68].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn69()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[69].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[69].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn70()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[70].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[70].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn71()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[71].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[71].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn72()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[72].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[72].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn73()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[73].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[73].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn74()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[74].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[74].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn75()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[75].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[75].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn76()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[76].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[76].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn77()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[77].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[77].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn78()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[78].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[78].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn79()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[79].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[79].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn80()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[80].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[80].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn81()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[81].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[81].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn82()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[82].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[82].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn83()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[83].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[83].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn84()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[84].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[84].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn85()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[85].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[85].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn86()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[86].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[86].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn87()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[87].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[87].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn88()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[88].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[88].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn89()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[89].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[89].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn90()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[90].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[90].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn91()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[91].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[91].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn92()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[92].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[92].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn93()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[93].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[93].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn94()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[94].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[94].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn95()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[95].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[95].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn96()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[96].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[96].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn97()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[97].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[97].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn98()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[98].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[98].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn99()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[99].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[99].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+    public void Spawn100()
+    {
+        PoolMain.더미.SetPositionAndRotation(Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[100].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).position, Networking.GetOwner(PoolMain.NetworkMain.pool.Pool[100].gameObject).GetTrackingData(VRCPlayerApi.TrackingDataType.Head).rotation);
+        for (int i = 0; i < 오브젝트풀.Pool.Length; i++)
+        {
+            if (!오브젝트풀.Pool[i].activeInHierarchy)
+            {
+
+                (오브젝트풀.TryToSpawn()).transform.position = PoolMain.더미앞.position;
+                break;
+            }
+        }
+    }
+
 
 
     #endregion
