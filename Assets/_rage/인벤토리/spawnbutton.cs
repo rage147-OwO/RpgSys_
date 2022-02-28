@@ -10,6 +10,6 @@ public class spawnbutton : UdonSharpBehaviour
     public void ButtonInteract()
     {
         ObjectPool.GetComponent<objectPool>().SpawnReq(this.GetComponentInParent<buttonContent>().NetworkMain.PlayerObjectNum);
-        Destroy(gameObject);
+        Destroy(this.gameObject);
     }
 }
