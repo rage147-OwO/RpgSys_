@@ -11,7 +11,6 @@ public class inventoryDesktop : UdonSharpBehaviour
     public ScrollRect 스크롤뷰;
     public GameObject 콘텐츠필드;
     public GameObject 버튼;
-    public GameObject 캔버스;
 
     GameObject CloneButtonTemp;
     VRC_Pickup PickupTemp;
@@ -69,7 +68,6 @@ public class inventoryDesktop : UdonSharpBehaviour
         {
             if (!더미캔버스위치.activeInHierarchy)
             {
-                캔버스.SetActive(true);
                 스크롤뷰.gameObject.SetActive(true);
                 더미캔버스위치.SetActive(true);
             }
@@ -79,7 +77,6 @@ public class inventoryDesktop : UdonSharpBehaviour
         {
             if (더미캔버스위치.activeInHierarchy)
             {
-                캔버스.SetActive(false);
                 스크롤뷰.gameObject.SetActive(false);
                 더미캔버스위치.SetActive(false);
             }
