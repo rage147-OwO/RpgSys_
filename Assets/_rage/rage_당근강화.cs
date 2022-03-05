@@ -19,7 +19,7 @@ public class rage_당근강화 : UdonSharpBehaviour
                 if (1 == temp)
                 {
                     ((VRC_Pickup)this.GetComponent(typeof(VRC_Pickup))).Drop();
-                    메인.당근오브젝트풀.Return(other.gameObject);
+                    메인.당근오브젝트풀.Return(this.gameObject);
                 }
                 else
                 {
