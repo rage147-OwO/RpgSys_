@@ -240,7 +240,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uC774\uB3D9\uBC84\uD2BC"
+      Data: "\uBE0C\uC774\uC54C"
     - Name: $v
       Entry: 7
       Data: 14|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -261,10 +261,10 @@ MonoBehaviour:
       Data: UnityEngineGameObject
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uC774\uB3D9\uBC84\uD2BC"
+      Data: "\uBE0C\uC774\uC54C"
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uC774\uB3D9\uBC84\uD2BC"
+      Data: "\uBE0C\uC774\uC54C"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
@@ -297,7 +297,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: "\uBC84\uD2BC"
+      Data: "\uD53C\uC528"
     - Name: $v
       Entry: 7
       Data: 17|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
@@ -318,10 +318,10 @@ MonoBehaviour:
       Data: UnityEngineGameObject
     - Name: symbolOriginalName
       Entry: 1
-      Data: "\uBC84\uD2BC"
+      Data: "\uD53C\uC528"
     - Name: symbolUniqueName
       Entry: 1
-      Data: "\uBC84\uD2BC"
+      Data: "\uD53C\uC528"
     - Name: symbolDefaultValue
       Entry: 6
       Data: 
