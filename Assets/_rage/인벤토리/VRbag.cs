@@ -31,56 +31,39 @@ public class VRbag : UdonSharpBehaviour
         CloneButtonTemp = VRCInstantiate(버튼);
         CloneButtonTemp.SetActive(true);
         CloneButtonTemp.transform.SetParent(콘텐츠필드.transform,false);
-        if (_TextName.Contains("weaponA"))
-        {
-            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "일반검";
-        }
-        else if (_TextName.Contains("weaponB"))
-        {
-            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "철검";
-        }
-        else if (_TextName.Contains("weaponC"))
-        {
-            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = "황금검";
-        }
-        else
-        {
-            ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = _TextName;
-        }
+        ((Text)CloneButtonTemp.GetComponentInChildren(typeof(Text))).text = _TextName;
         CloneButtonTemp.GetComponent<spawnbutton>().ObjectPool = _Objectpool;
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        if (VR헤드.activeInHierarchy)
-        {
-            if ((Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right) != null))
+        if ((Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right) != null)) { 
+            if (Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right).gameObject.name==other.gameObject.name)
             {
-                if (Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right).gameObject.name == other.gameObject.name)
+                PickupTemp = Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right);
+                if (PickupTemp.GetComponentInParent<objectPool>() != null)
                 {
-                    PickupTemp = Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Right);
-                    if (PickupTemp.GetComponentInParent<objectPool>() != null)
-                    {
-                        SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
-                        PickupTemp.Drop();
-                        PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex().ToString());
-                    }
-                }
-            }
-            if ((Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left) != null))
-            {
-                if (Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left).gameObject.name == other.gameObject.name)
-                {
-                    PickupTemp = Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left);
-                    if (PickupTemp.GetComponentInParent<objectPool>() != null)
-                    {
-                        SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
-                        PickupTemp.Drop();
-                        PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex().ToString());
-                    }
+                    SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
+                    PickupTemp.Drop();
+                    PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex());
+
                 }
             }
         }
+        if ((Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left) != null))
+        {
+            if (Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left).gameObject.name == other.gameObject.name)
+            {
+                PickupTemp = Networking.LocalPlayer.GetPickupInHand(VRC_Pickup.PickupHand.Left);
+                if (PickupTemp.GetComponentInParent<objectPool>() != null)
+                {
+                    SpawnButton(PickupTemp.GetComponentInParent<objectPool>().gameObject, PickupTemp.gameObject.name.Remove(PickupTemp.gameObject.name.Length - 3));
+                    PickupTemp.Drop();
+                    PickupTemp.GetComponentInParent<objectPool>().SendCustomNetworkEvent(VRC.Udon.Common.Interfaces.NetworkEventTarget.Owner, "PoolReturn" + PickupTemp.transform.GetSiblingIndex());
+
+                }
+            }
+        }       
     }
 
     public override void Interact()
